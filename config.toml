@@ -1,5 +1,5 @@
 # SETUP
-baseurl = "/"
+baseurl = "https://ytyeoh.github.io/8cell/"
 DefaultContentLanguage = "en"
 publishdir = "public"
 canonifyUrls = "true"
