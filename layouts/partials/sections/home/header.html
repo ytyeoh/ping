@@ -1,0 +1,55 @@
+{{ $headless := .Site.GetPage "/sections" }}
+{{ $header := $headless.Resources.GetMatch (printf "*%s*" "header") }}
+<style>
+    .header {
+        background: url("img/a1.jpeg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .content__container {
+        overflow: hidden;
+        height: 40px;
+    }
+
+    .content__container__list {
+        list-style: none;
+
+        animation-name: change;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    .content__container__list__item {
+        margin: 0;
+        line-height: 40px;
+    }
+
+    @keyframes change {
+        0%, 7.14%, 100% {transform:translate3d(0,0,0);}
+        14.28% {transform:translate3d(0,-14.28%,0);}
+        21.42% {transform:translate3d(0,-28.57%,0);}
+        28.57% {transform:translate3d(0,-42.85%,0);}
+        35.71% {transform:translate3d(0,-57.14%,0);}
+        42.85% {transform:translate3d(0,-71.42%,0);}
+        53.5% {transform:translate3d(0,-85.71%,0);}
+        64.28% {transform:translate3d(0,-71.42%,0);}
+        71.42% {transform:translate3d(0,-57.14%,0);}
+        78.54% {transform:translate3d(0,-42.85%,0);}
+        85.71% {transform:translate3d(0,-28.57%,0);}
+        92.85% {transform:translate3d(0,-14.28%,0);}
+    }
+</style>
+<div class="header w-full min-h-screen flex flex-col justify-between">
+    {{ partial "navbar.html" . }}
+    <div class="flex flex-col justify-center h-full py-12">
+    	<div class=" self-center items-center w-full text-center w-full">
+        		<h1 class="text-white text-4xl">{{ $header.Title }}</h1>
+        	</div>
+        <div class="self-center items-center flex flex-col sm:flex-row w-full md:w-5/6 xl:w-2/3 px-4 sm:px-0">
+        	
+        </div>
+    </div>
+    <div class="flex flex-row w-full justify-center pb-12">
+        <a class="px-10 py-2 text-gray-200 bg-pink-600 rounded-full shadow-md text-lg hover:bg-gray-800 hover:border-red" href="#about">More Information</a>
+    </div>
+</div>

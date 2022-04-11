@@ -2,6 +2,8 @@
 title: AWE.SOME
 headless: true
 resources:
+    - name: header
+      src: header.md
     - name: about
       src: about.md
     - name: features

@@ -67,7 +67,7 @@
     }
 </style>
 <template id="followTip">
-    {{ range .Site.Params.social }}
-        <a href="{{ .url }}" class="inline-block text-gray-200 text-sm bg-pink-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1" target="_blank" rel="noopener">{{ .title }}</a>
+	{{ range $.Site.Home.AllTranslations }}
+        <a href="{{ .Permalink }}"  class="inline-block text-gray-200 text-sm bg-pink-600 shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1" rel="noopener">{{ .Language.LanguageName }}</a>
     {{ end }}
 </template>

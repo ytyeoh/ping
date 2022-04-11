@@ -1,11 +1,12 @@
 # SETUP
 baseurl = "https://ytyeoh.github.io/8cell/"
+languageCode = "en-us"
 DefaultContentLanguage = "en"
 publishdir = "public"
 canonifyUrls = "true"
 disableKinds = ["RSS","taxonomy","taxonomyTerm"] # disable hugo's content that we don't need...
 
-title = "AWE.SOME - A Landing Page Template for Hugo" # page title -> see ./layouts/partials/head.html
+# title = "AWE.SOME - A Landing Page Template for Hugo" # page title -> see ./layouts/partials/head.html
 
 googleAnalytics = "" # if needed...
 
@@ -24,3 +25,14 @@ googleAnalytics = "" # if needed...
 [[params.social]]
     title = "LinkedIn"
     url = "https://linkedin.com/company/#" # add your linkedin profile URL
+
+# defaultContentLanguageInSubdir = false
+[languages]
+  [languages.en]
+    title = "8cell Website"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    title = "8cell网站"
+    languageName = "Chinese"
+    weight = 2
