@@ -29,7 +29,8 @@
 
     const template = document.getElementById('followTip');
     const container = document.createElement('div');
-
+    
+	
     container.appendChild(document.importNode(template.content, true));
 
     tippy('#lang', {
@@ -40,5 +41,5 @@
         placement: 'bottom',
         interactive: true,
     })
-
+    
 </script>

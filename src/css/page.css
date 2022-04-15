@@ -31,30 +31,94 @@ html {
 }
 @font-face {
   font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Black.otf") format('otf'),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf") format('otf'), 
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf") format('otf'),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf") format('otf'),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Light.otf") format('otf'),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf") format('otf'),
-       url("../fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf") format('otf');
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf") format('otf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Light.otf") format('otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf") format('otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf") format('otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf") format('otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf") format('otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "NotoSerifSC";
+  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Black.otf") format('otf');
+  font-weight: 900;
 }
 @font-face {
   font-family: "NotoSansSC";
-  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Black.otf") format('otf'),
-       url("../fonts/Noto_Sans_SC/NotoSansSC-Bold.otf") format('otf'),
-       url("../fonts/Noto_Sans_SC/NotoSansSC-Medium.otf") format('otf'),
-       url("../fonts/Noto_Sans_SC/NotoSansSC-Regular.otf") format('otf'),
-       url("../fonts/Noto_Sans_SC/NotoSansSC-Thin.otf") format('otf'),
-       url("../fonts/Noto_Sans_SC/NotoSansSC-Light.otf") format('otf'),;
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Thin.otf") format('otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Light.otf") format('otf'),;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Regular.otf") format('otf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Medium.otf") format('otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Bold.otf") format('otf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("../fonts/Noto_Sans_SC/NotoSansSC-Black.otf") format('otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-Regular.ttf") format('truetype');
+  font-weight: 400;
 }
 @font-face {
   font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-Bold.ttf") format('truetype'),
-       url("../fonts/Quicksand/Quicksand-Light.ttf") format('truetype'),
-       url("../fonts/Quicksand/Quicksand-Medium.ttf") format('truetype'),
-       url("../fonts/Quicksand/Quicksand-Regular.ttf") format('truetype'),
-       url("../fonts/Quicksand/Quicksand-SemiBold.ttf") format('truetype');
+  src: url("../fonts/Quicksand/Quicksand-Bold.ttf") format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-Medium.ttf") format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf") format('truetype');
+  font-weight: 600;
 }
 @tailwind base;
 
@@ -75,13 +139,13 @@ html {
   position: absolute;
   width: 24px;
   height: 2px;
-  background: #000;
+  background: #fff;
   transform: rotate(0);
   transition: all 0.5s;
 }
 
 .hamburger:hover [class*="-bun"] {
-  background: #333;
+  background: #fff;
 }
 
 .hamburger__top-bun {

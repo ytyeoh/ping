@@ -1,0 +1,16 @@
+{{ define "main" }}
+	<div class="w-full min-h-screen flex flex-col justify-between" id="{{.Layout}}">
+		<div class="layer h-full">
+	    {{ partial "navbar.html" . }}
+		    <div class="flex flex-row justify-center pt-12">
+		    	<div class=" text-center w-full px-4 sm:px:0">
+	        		<h1 class="text-white text-xl sm:text-7xl uppercase">{{ .Title }}</h1>
+	        	</div>
+	        </div>
+		</div>
+	</div>
+    
+
+    
+
+{{ end }}

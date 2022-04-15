@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     cssnano = require('gulp-cssnano');
 
 gulp.task('css', function () {
-    return gulp.src('./src/css/*.css')
+    return gulp.src('./src/css/*.css',)
       .pipe(postcss([
         require('tailwindcss'),
         require('autoprefixer'),
