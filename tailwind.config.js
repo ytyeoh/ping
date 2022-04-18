@@ -7,7 +7,6 @@ module.exports = {
       // wherever else you use tailwind classes
     ],
   },
-  mode: 'jit',
   // target: 'relaxed',
   prefix: '',
   important: false,
