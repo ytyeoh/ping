@@ -15,4 +15,8 @@ gulp.task('css', function () {
         discardComments: {removeAll: true}
       }))
       .pipe(gulp.dest('static/css/'));
+    watch(
+      ['tailwind.config.js','./src/css/*.css', './content/**/*.md','./layouts/**/*.html'],
+      series(processCSS)
+    );
   });

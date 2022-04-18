@@ -15,11 +15,13 @@
   "license": "MIT",
   "homepage": "https://awesome.ttntm.me",
   "devDependencies": {
+    "autoprefixer": "^9.8.8",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-postcss": "^8.0.0",
-    "tailwindcss": "^1.4.6"
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
