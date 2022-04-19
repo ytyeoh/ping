@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "gulp css && hugo server",
+    "start": "gulp css && hugo server --bind=192.168.0.115 --baseURL=http://192.168.0.115:1313",
     "deploy": "gulp css && hugo --minify"
   },
   "repository": {

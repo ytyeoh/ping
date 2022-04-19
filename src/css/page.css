@@ -127,6 +127,10 @@ html {
 @tailwind utilities;
 .shadow{
   box-shadow: inset 0 0 0 800px rgba(0, 0, 0, 0.36);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .hamburger {
   cursor: pointer;
