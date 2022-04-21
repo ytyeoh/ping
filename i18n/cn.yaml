@@ -9,4 +9,34 @@ home_2_link: 'reseller'
 home_2_a: 'sign up today<i class="fa-solid fa-angle-right text-blue-900"></i>'
 
 tech_1_title: 'apple stem cell'
+tech_1_image: 'products/a1.png'
 tech_1_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+
+tech_2_title: 'hydrolyzed collagen'
+tech_2_image: 'reseller/a1.png'
+tech_2_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+
+product_2_title: 'ha spring essence mist'
+product_2_image: 'reseller/a1.png'
+product_2_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+product_2_image2: 'img/products/a1.png'
+
+product_3_title: 'gentle clarifying gel cleanser'
+product_3_image: 'products/a1.png'
+product_3_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+product_3_image2: 'img/reseller/a1.png'
+
+product_4_title: 'eye lifting activator'
+product_4_image: 'reseller/a1.png'
+product_4_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+product_4_image2: 'img/products/a1.png'
+
+product_5_title: 'eye lifting activator'
+product_5_image: 'reseller/a1.png'
+product_5_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+product_5_image2: 'img/products/a1.png'
+
+product_6_title: 'eye lifting activator'
+product_6_image: 'reseller/a1.png'
+product_6_desc: '8 Cell is health & beauty product manufacturer from Malaysia, wecurrently produce very high quality and easy to use beauty products catered directly for individual who are at aged 25 and above especially for those who are already enter the workforce. Armed with the most advance skin care technologies patented from our Korea skin care laboratory, we envision our clients achieve their desired healthy skin condition through the use of our highly innovative products'
+product_6_image2: 'img/products/a1.png'
