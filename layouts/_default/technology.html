@@ -2,15 +2,18 @@
 	<div class="w-full shadow min-h-screen flex flex-col justify-between" id="{{.Layout}}">
 		<div class=" h-full">
 	    {{ partial "navbar.html" . }}
-		    <div class="flex flex-row justify-center pt-12">
-		    	<div class=" text-center w-full px-4 sm:px:0">
-	        		<h1 class="text-white text-xl sm:text-7xl uppercase">{{ .Title }}</h1>
+		    <div class="flex flex-row justify-center px-12 py-12">
+		    	<div class="self-center text-left w-full px-4 sm:px:0">
+	        		<h1 class="text-white text-xl sm:text-7xl uppercase">{{ .Title | safeHTML }}</h1>
+	        		<p>{{ .Params.desc_main }}</p>
 	        	</div>
 	        </div>
 		</div>
 	</div>
     
+	 {{ partial "section/right_2.html" (dict "title" (i18n "tech_1_title")  "desc" (i18n "tech_1_desc") "img" (i18n "home_2_image"))  }}
 
+	 {{ partial "section/left_1.html" (dict "title" (i18n "tech_1_title")  "desc" (i18n "tech_1_desc") "img" (i18n "tech_2_image"))  }}
     
 
 {{ end }}
