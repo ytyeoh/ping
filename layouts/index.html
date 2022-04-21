@@ -2,9 +2,6 @@
 
     {{ partial "sections/home/header.html" . }}
     {{ partial "section/center.html" (dict "title" (i18n "home_1_title")  "desc" (i18n "home_1_desc") "img" (i18n "home_1_image")) }}
-    {{ partial "section/right_1.html" (dict "title" (i18n "home_2_title")  "desc" (i18n "home_2_desc") "img" (i18n "home_2_image")) }}
-    {{ partial "sections/about.html" . }}
-    {{ partial "sections/features.html" . }}
-    {{ partial "sections/register.html" . }}
+    {{ partial "section/right_1.html" (dict "title" (i18n "home_2_title")  "desc" (i18n "home_2_desc") "img" (i18n "home_2_image") "link" (i18n "home_2_link") "url" (i18n "home_2_a"))  }}
 
 {{ end }}
