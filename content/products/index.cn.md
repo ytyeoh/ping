@@ -1,9 +1,9 @@
 ---
-title: 'rejuvenate lifting cream'
+title: '天然肉毒面霜'
 translationKey: "products"
 layout: "products"
-desc_main: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id rhoncus est. Nullam sit amet justo nisi. Aliquam elementum iaculis nulla bibendum congue. Integer convallis ut nisi at tincidunt. Sed eu diam ex. Ut efficitur velit ut ultrices semper. Morbi suscipit ut purus a placerat. Cras massa lorem, pretium et nibh in, faucibus fermentum dolor. Nulla lacinia malesuada molestie. Proin et risus turpis. Aenean lacinia, orci at egestas fringilla, sem libero facilisis lectus, ut porta justo ligula a quam. Mauris vulputate purus mauris, eget semper ante rutrum id. Duis vestibulum, turpis at ultricies aliquam, enim dolor lobortis leo, at laoreet elit odio at nunc. Aliquam sit amet erat mi.'
-image: 'a1.jpeg'
+desc_main: '是一种优质的祛皱化妆品原料，其抗皱活性高，副作用小，已在各高端化妆品系列中应用。它能局部阻断神经传递肌肉收缩讯息，影响皮囊神经传导，使脸部肌肉放松，达到平抚动态纹、静态纹及细纹：有效重新组织胶原弹力，可以增加弹力蛋白的活性，使脸部线条放松，皱纹抚平改善松驰。可用于化妆品内，作为抗皱成分，且效果极佳。'
+image: 'img/a1.jpeg'
 ---
 
 Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt.
