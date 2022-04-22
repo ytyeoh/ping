@@ -1,10 +1,58 @@
 {{ define "main" }}
-	<div class="w-full min-h-screen flex flex-col justify-between" id="{{.Layout}}">
-		<div class="layer h-full">
+	<div class="shadow xl:shadow-desktop w-full min-h-screen flex flex-col justify-between" id="{{.Layout}}">
+		<div class=" h-full">
 	    {{ partial "navbar.html" . }}
 		    <div class="flex flex-row justify-center pt-12">
-		    	<div class=" text-center w-full px-4 sm:px:0">
+		    	<div class=" text-left w-full px-4 sm:px:0">
 	        		<h1 class="text-white text-7xl uppercase">{{ .Title }}</h1>
+	        		<p class="xl:w-1/2 text-white text-4xl xl:text-4xl">{{ .Params.desc }}</p>
+	        	</div>
+	        </div>
+	        <div class="flex flex-row justify-center pt-12 ">
+	        	<form  class="flex flex-col text-left w-full" action="">
+	        		<div class="w-full xl:w-1/2 mb-4 px-4">
+				      <label class="block text-white text-sm font-bold mb-2" for="username">
+				        {{ .Params.name }}
+				      </label>
+				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="username" type="text">
+				    </div>
+				    <div class="w-full xl:w-1/2 mb-4 px-4">
+				      <label class="block text-white text-sm font-bold mb-2" for="email">
+				        {{ .Params.email }}
+				      </label>
+				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="email" type="text">
+				    </div>
+				    <div class="w-full xl:w-1/2 mb-4 px-4">
+				      <label class="block text-white text-sm font-bold mb-2" for="msg">
+				        {{ .Params.msg }}
+				      </label>
+				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="msg" type="text">
+				      
+				    </div>
+				    <div class="w-full mb-4 px-4">
+					    send
+					</div>
+	        	</form>
+	        	
+	        </div>
+
+	        <div class="flex flex-row justify-center py-12">
+	        	<div class="flex flex-col px-4  text-left w-full">
+		        	<h2 class="text-white text-7xl uppercase ">{{ .Params.agent.title }}</h2>
+
+		        	<h5 class="text-white text-3xl uppercase">{{ .Params.agent.country }}</h5>
+		        	<div class="flex xl:flex-row flex-col justify-center pt-12 w-full">
+			        	{{ range .Params.agent.state }}
+			        		<div class="flex flex-col xl:w-full w-1/5">
+								<h5 class="text-white text-3xl uppercase">{{.title}}</h5>
+								<ul>
+									{{ range .name }}
+										<li>{{.}}</li>
+									{{ end }}
+								</ul>
+							</div>
+			        	{{ end }}
+			        </div>
 	        	</div>
 	        </div>
 		</div>

@@ -1,9 +1,10 @@
 {{ define "main" }}
-	<div class="w-full shadow xl:shadow-desktop min-h-screen justify-center items-center  flex flex-col justify-between" id="{{.Layout}}">
-		<div class="justify-center h-full">
+
+	<div class="w-full shadow xl:shadow-desktop min-h-screen flex justify-center items-center flex-col justify-between" id="{{.Layout}}">
+		<div class="self-center justify-center h-full">
 	    {{ partial "navbar.html" . }}
-		    <div class="flex flex-row justify-center pt-12">
-		    	<div class="justify-between text-center w-full px-4 sm:px:0">
+		    <div class=" flex justify-center items-center min-h-screen flex-row pt-12">
+		    	<div class=" text-center w-full px-4 sm:px:0">
 	        		<h1 class="text-white text-xl xl:text-8xl uppercase">{{ .Title }}</h1>
 	        	</div>
 	        </div>

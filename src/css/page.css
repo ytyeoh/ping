@@ -138,6 +138,13 @@ html {
   background-size: auto 120vh;
   background-repeat: no-repeat;
 }
+input{
+  background: transparent;
+  border-bottom: 2px solid white;
+}
+input :focus{
+  border-bottom: 2px solid white;
+}
 .hamburger {
   cursor: pointer;
   width: 48px;
