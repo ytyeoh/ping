@@ -1,16 +1,41 @@
 {{ define "main" }}
-	<div class="w-full shadow min-h-screen flex flex-col justify-between" id="{{.Layout}}">
-		<div class=" h-full">
+	<div class="w-full shadow xl:shadow-desktop min-h-screen justify-center items-center  flex flex-col justify-between" id="{{.Layout}}">
+		<div class="justify-center h-full">
 	    {{ partial "navbar.html" . }}
 		    <div class="flex flex-row justify-center pt-12">
-		    	<div class=" text-center w-full px-4 sm:px:0">
-	        		<h1 class="text-white text-7xl uppercase">{{ .Title }}</h1>
+		    	<div class="justify-between text-center w-full px-4 sm:px:0">
+	        		<h1 class="text-white text-xl xl:text-8xl uppercase">{{ .Title }}</h1>
 	        	</div>
 	        </div>
 		</div>
 	</div>
     
+	<div class=" w-full flex flex-col">
+	    <div class="flex xl:flex-row flex-col">
 
+	    	<div class="self-center xl:w-1/2 w-full  sm:px:0 "><img src="{{ .Params.image | absURL }}" alt=""></div>
+	    	<div class="self-center text-black xl:w-1/2 w-full px-4 sm:px:0 xl:pl-5">
+	    		<h2 class="text-blue-800 text-5xl lg:text-right">{{ .Params.title_1 }}</h2>
+	    		<p>{{ .Params.desc_main }}</p>
+	    	</div>
+	    	
+	    </div>
+	</div>
+
+	<div class="shadow xl:shadow-desktop bg-cover w-full min-h-screen flex flex-col justify-center items-center py-12" style='background-image: url("./img/{{ .Params.qna.image }}");'>
+	    <div class="self-center text-center w-full px-4 sm:px:0">
+	        <h1 class="text-7xl">{{ .Params.qna.title }}</h1>
+	    </div>
+	    <div class="self-center w-full  xl:text-left flex flex-col md:flex-row flex-wrap px-4 xl:px:0">
+	       <h2 class="tracking-wide text-white font-bold text-4xl xl:text-7xl uppercase mb-4">{{ .Params.title_1 | safeHTML }}</h2>
+	       {{ range .Params.l }}
+		       <button type="button" class="text-4xl collapsible self-center w-full  text-left flex-wrap px-4 xl:px:0"> <i class="fa-solid fa-chevron-right pr-4"></i> {{ .a }}</button>
+				<div class="content hidden self-center w-full pl-4 text-left flex-wrap px-4 xl:px:0">
+				  <p class="text-2xl self-center w-full pl-5 ml-4 text-left flex-wrap px-4 xl:px:0">{{ .q }}</p>
+				</div>
+			{{ end }}
+	    </div>
+	</div>
     
 
 {{ end }}
