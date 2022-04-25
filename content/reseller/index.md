@@ -3,7 +3,7 @@ title: "Be a reseller"
 translationKey: "reseller"
 layout: "reseller"
 title_1: 'Reason/Why become consultant'
-desc_main: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id rhoncus est. Nullam sit amet justo nisi. Aliquam elementum iaculis nulla bibendum congue. Integer convallis ut nisi at tincidunt. Sed eu diam ex. Ut efficitur velit ut ultrices semper. Morbi suscipit ut purus a placerat. Cras massa lorem, pretium et nibh in, faucibus fermentum dolor. Nulla lacinia malesuada molestie. Proin et risus turpis. Aenean lacinia, orci at egestas fringilla, sem libero facilisis lectus, ut porta justo ligula a quam. Mauris vulputate purus mauris, eget semper ante rutrum id. Duis vestibulum, turpis at ultricies aliquam, enim dolor lobortis leo, at laoreet elit odio at nunc. Aliquam sit amet erat mi.'
+desc_main: 'A beginning of something beautiful. You’ve got dreams. Whether it’s earning a little extra cash or making a full-time commitment, 8 Cell offers the freedom, flexibility and, of course, the fun that you’ve been looking for. <br><br>The prizes and perks are fabulous, and nothing beats the encouragement and empowerment you receive from other women like you!<br><br>And most important part is you are assisting customers in choosing the right beauty products to make most of their appearance look good despite age, lifestyle, and skin type.'
 image: 'img/reseller/a2.png'
 qna:
   image: 'reseller/a3.png'
