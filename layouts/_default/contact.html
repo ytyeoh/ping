@@ -13,19 +13,19 @@
 	        		<input name="a1" id="name" type="hidden">
 	        		<input name="a2" id="username1" type="hidden">
 	        		<div class="w-full xl:w-1/2 mb-4 px-4">
-				      <label class="block text-white text-sm font-bold mb-2" for="username">
+				      <label class="uppercase block text-white text-sm font-bold mb-2" for="username">
 				        {{ .Params.name }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="a" id="username" type="text">
 				    </div>
 				    <div class="w-full xl:w-1/2 mb-4 px-4">
-				      <label class="block text-white text-sm font-bold mb-2" for="email">
+				      <label class="uppercase block text-white text-sm font-bold mb-2" for="email">
 				        {{ .Params.email }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="b" id="email" type="text">
 				    </div>
 				    <div class="w-full xl:w-1/2 mb-4 px-4">
-				      <label class="block text-white text-sm font-bold mb-2" for="msg">
+				      <label class=" uppercase block text-white text-sm font-bold mb-2" for="msg">
 				        {{ .Params.msg }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="d" id="msg" type="text">
@@ -40,13 +40,13 @@
 
 	        <div class="flex flex-row justify-center py-12">
 	        	<div class="flex flex-col px-4  text-left w-full">
-		        	<h2 class="text-white text-7xl uppercase ">{{ .Params.agent.title }}</h2>
+		        	<h2 class="text-white text-7xl capitalize ">{{ .Params.agent.title }}</h2>
 
 		        	<h5 class="text-white text-3xl uppercase">{{ .Params.agent.country }}</h5>
 		        	<div class="flex xl:flex-row flex-col justify-center pt-12 w-full">
 			        	{{ range .Params.agent.state }}
 			        		<div class="flex flex-col w-full ">
-								<h5 class="text-white text-3xl uppercase pt-5 xl:pt-1">{{.title}}</h5>
+								<h5 class="text-white text-3xl capitalize pt-5 xl:pt-1">{{.title}}</h5>
 								<ul>
 									{{ range .name }}
 										<li>{{.}}</li>

@@ -145,6 +145,9 @@ input{
 input :focus{
   border-bottom: 2px solid white;
 }
+h1, h2{
+  font-family: NotoSerifSC,Georgia,Cambria,Times New Roman,Times,serif;
+}
 .hamburger {
   cursor: pointer;
   width: 48px;
