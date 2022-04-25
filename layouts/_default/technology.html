@@ -2,10 +2,10 @@
 	<div class="w-full shadow min-h-screen flex flex-col justify-between" id="{{.Layout}}">
 		<div class=" h-full">
 	    {{ partial "navbar.html" . }}
-		    <div class="flex flex-row justify-center px-12 py-12">
-		    	<div class="self-center text-left w-full px-4 sm:px:0">
-	        		<h1 class="text-white text-xl sm:text-7xl uppercase">{{ .Title | safeHTML }}</h1>
-	        		<p>{{ .Params.desc_main }}</p>
+		    <div class="flex flex-row justify-center items-center min-h-screen px-12 py-12">
+		    	<div class="self-center text-left w-full sm:py-5 px-4 sm:px:0">
+	        		<h1 class="text-white text-5xl py-5 sm:text-7xl uppercase">{{ .Title | safeHTML }}</h1>
+	        		<p class="w-full  xl:w-3/4 text-3xl">{{ .Params.desc_main }}</p>
 	        	</div>
 	        </div>
 		</div>

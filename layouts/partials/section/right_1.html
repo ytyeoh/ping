@@ -5,10 +5,10 @@
         
     </div>
     <div class="self-center w-full sm:w-2/3 xl:w-1/2  xl:text-left flex flex-col md:flex-row flex-wrap px-4 xl:px:0">
-       <h2 class="tracking-wide text-white font-bold text-4xl xl:text-7xl uppercase mb-4">{{ .title | safeHTML }}</h2>
-        <div class="font-light text-white text-xl mb-6">
+       <h2 class="tracking-wide text-white font-bold text-5xl xl:text-7xl uppercase mb-4">{{ .title | safeHTML }}</h2>
+        <div class="font-light text-white text-2xl mb-6">
             {{ .desc }}
         </div>
-        <a href="{{ .link | absLangURL }}" class='uppercase text-2xl text-white'>{{ .url | safeHTML }}</a>
+        <a href="{{ .link | absLangURL }}" class='pl-3 uppercase text-2xl text-white'>{{ .url | safeHTML }}</a>
     </div>
 </div>

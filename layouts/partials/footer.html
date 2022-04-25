@@ -1,5 +1,5 @@
-<footer class="w-full bg-gray-400 flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 pt-16">
-    <div class="text-center pr-0 sm:pr-8 pt-4 flex flex-row">
+<footer class="w-full bg-gray-400 flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 ">
+    <div class="text-center pr-0 sm:pr-8 flex flex-row">
         {{ range .Site.Params.social }}
             <div class="w-1/4">
                 <a class="text-black px-4 text-7xl no-underline" href="{{ .url }}" target="_blank" rel="_noopener"><i class="{{ .icon }}"></i></a>
@@ -7,9 +7,10 @@
         {{ end }}
     </div>
     <div class="w-full">
-	    <span class="pt-20 text-left block text-black text-xl font-bold  align-bottom">
-	        Managed by : 
+	    <span class="pt-5 text-left block text-black text-xl font-bold  align-bottom float-right">
+	        <img class="align-end" src="/img/footer.svg" alt="">
 	    </span>
+	  
 	</div>
 </footer>
 

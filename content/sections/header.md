@@ -1,5 +1,5 @@
 ---
-title: age reverse foundary
+title: AGE REVERSE FOUNDARY
 translationKey: "about"
 ---
 

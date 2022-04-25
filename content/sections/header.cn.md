@@ -1,5 +1,5 @@
 ---
-title: 人生而自
+title: AGE REVERSE FOUNDARY
 translationKey: "about"
 ---
 
