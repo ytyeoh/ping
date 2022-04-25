@@ -4,7 +4,7 @@
 	    {{ partial "navbar.html" . }}
 		    <div class="flex xl:flex-row flex-col justify-center pt-12">
 		    	<div class=" xl:w-1/2 w-full px-4 sm:px:0">
-	        		<h1 class="text-white xl:text-7xl text-2xl uppercase text-left">{{ .Title }}</h1>
+	        		<h1 class="text-white xl:text-7xl text-5xl uppercase text-left">{{ .Title }}</h1>
 	        	</div>
 	        	<div class="xl:w-1/2"></div>
 	        </div>
@@ -22,6 +22,6 @@
 	{{ partial "section/right_img1.html" (dict "title" (i18n "product_4_title")  "desc" (i18n "product_4_desc") "img" (i18n "product_4_image") "image" (i18n "product_4_image2"))  }}
 
 	{{ partial "section/left_img1.html" (dict "title" (i18n "product_5_title")  "desc" (i18n "product_3_desc") "img" (i18n "product_5_image") "image" (i18n "product_5_image2"))  }}
-	
+
 	{{ partial "section/right_img1.html" (dict "title" (i18n "product_6_title")  "desc" (i18n "product_6_desc") "img" (i18n "product_6_image") "image" (i18n "product_6_image2"))  }}
 {{ end }}

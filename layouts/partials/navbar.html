@@ -9,12 +9,13 @@
         <a class="{{ if (eq .Layout "technology" )}}text-gray-400{{else}} text-white {{ end }}  font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "technology" | absLangURL }}">Technology</a>
         <a class="{{ if (eq .Layout "products" )}}text-gray-400{{else}} text-white {{ end }}  font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "products" | absLangURL }}">Products</a>
         <a class=" {{ if (eq .Layout "reseller" )}}text-gray-400{{else}} text-white {{ end }}  lg:inline-block text-white font-bold hover:text-gray-400 text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer"  href="{{ "reseller" | absLangURL }}">Be a Reseller</a>
-        <span id="lang" class="hidden lg:inline-block text-white font-bold hover:text-gray-400 text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer">Language</span>
+        <span id="lang" class="hidden lg:inline-block text-white font-bold hover:text-gray-400 text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer">Language {{ i18n "language"}} </span>
         <ul>
         </ul>
         <a class="{{ if (eq .Layout "contact" )}}active{{ end }} text-white font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:px-4 py-2 lg:py-1" href="{{ "contact" | absLangURL }}">Contact Us</a>
+        {{$element := .Layout }}
         {{ range $.Site.Home.AllTranslations }}
-	        <a href="{{ .Permalink }}/{{.Pages}}"  class="text-white font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:hidden py-2" rel="noopener">{{ .Language.LanguageName }}</a>
+	        <a href="{{ .Permalink | absLangURL }}/{{$element}}"  class="text-white font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:hidden py-2" rel="noopener">{{ .Language.LanguageName }}</a>
         {{ end }}
     </div>
 </nav>

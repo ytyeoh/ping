@@ -40,7 +40,8 @@
     }
 </style>
 <template id="followTip">
+	{{$element := .Layout }}
 	{{ range $.Site.Home.AllTranslations }}
-        <a href="{{ .Permalink }}/{{.Layout}}"  class="inline-block text-gray-200 text-sm  shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1" rel="noopener">{{ .Language.LanguageName }}</a>
+        <a href="{{ .Permalink | absLangURL }}/{{$element}}"  class="inline-block text-gray-200 text-sm  shadow-md hover:bg-gray-200 hover:text-gray-800 no-underline p-1 px-4 mx-2 my-1" rel="noopener">{{ .Language.LanguageName }}</a>
     {{ end }}
 </template>
