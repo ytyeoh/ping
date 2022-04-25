@@ -10,16 +10,15 @@ qna:
   title: 'FAQ'
 l: 
   - a: '1.What does an 8 cell beauty consultant /reseller do?'
-    q: '8 cell beauty consultant /reseller are the face of the company. They help customers find the products they’re looking for, answer their questions about those products, and provide recommendations on how to best use them.'
+    q: '8 Cell美容顾问/经销商是公司的颜面，在了解了顾客对于相关类型美容品的需求与疑问之后，向他们推荐最好以及最适合的产品.'
   - a: '2. How to become 8 cell beauty consultant /reseller?'
-    q: 'If a person wishes to join and become 8 cell beauty consultant /reseller, they must sign and submit independent agreement. They will receive on-the-job training from their managers or other experienced 8 cell Beauty advisor.  And become an 8 cell user is mandatory.'
+    q: '若有人有意成为8 Cell的美容顾问/经销商，首先他/她必须是8 cell 产品的使用者，在签署并提呈单独的协议后，接受由8 cell 经理或者其他有经验的8 Cell美容顾问的在职训练，'
   - a: '3. How do I start my career as an 8 cell beauty consultant /reseller?'
-    q: 'The person must get finished the training and purchase a specific amount of 8 cell product, then he/she can start his business immediately'
+    q: '此人必须完成所有的在职训练并且购入指定数量的8 cell产品作为先手货品，就能够马上开始展8 cell的事业'
   - a: '4. How do I earn my income?'
-    q: 'We have a generous amount of commission on everything you sell to the rewards and recognition you earn along the way; you decide what’s important to you – and go for it!'
-
+    q: '您所销售的每一件8 cell产品都会有高额的佣金以及提供各种奖励，您可以自行决定认为最重要的方向，并且放手去做。'
   - a: '5. Working hours and condition'
-    q: 'If you prefer to do business online, no problem! On the go or in person？you are welcome too! And you’ll have access to a wide range of tools that help keep your business organized, connected and efficient..'
+    q: '网络贩售？没问题！面对面讲解或四处寻找经销商？都行！同时您还可以通过各式各样的工具来让您的生意更加的井井有条，并且更有效率。'
     
 ---
 
