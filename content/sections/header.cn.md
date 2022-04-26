@@ -1,5 +1,5 @@
 ---
-title: AGE REVERSE FOUNDARY
+title: '逆龄铸造厂'
 translationKey: "about"
 ---
 
