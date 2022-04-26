@@ -148,6 +148,9 @@ input :focus{
 h1, h2{
   font-family: NotoSerifSC,Georgia,Cambria,Times New Roman,Times,serif;
 }
+img{
+  width: 100%;
+}
 .hamburger {
   cursor: pointer;
   width: 48px;
