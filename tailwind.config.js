@@ -13,6 +13,7 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
+      xs: '350',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -292,6 +293,7 @@ module.exports = {
       full: '100%',
       screen: '100vh',
       '20screen': '120vh',
+      '30screen': '130vh',
       '200screen': '200vh',
     }),
     inset: {
