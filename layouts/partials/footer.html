@@ -1,13 +1,13 @@
-<footer class="w-full bg-gray-400 flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 ">
-    <div class="text-center pr-0 sm:pr-8 flex pt-3 flex-row">
+<footer class="w-full bg-gray-400 h-20 lg:h-28 flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 ">
+    <div class="md:w-1/2 w-full text-center pr-0 sm:pr-8 flex pt-3 flex-row">
         {{ range .Site.Params.social }}
             <div class="w-1/4">
-                <a class="text-black px-4 text-3xl no-underline" href="{{ .url }}" target="_blank" rel="_noopener"><i class="{{ .icon }}"></i></a>
+                <a class="text-black px-4 text-2xl xl:text-3xl no-underline" href="{{ .url }}" target="_blank" rel="_noopener"><i class="{{ .icon }}"></i></a>
             </div>
         {{ end }}
     </div>
-    <div class="w-full">
-	    <span class="pt-1 text-left block text-black text-xl font-bold  align-bottom float-right">
+    <div class="w-full flex flex-col">
+	    <span class="absolute left-25 md:right-0 w-1/2 pt-1 text-left block text-black text-xl font-bold  align-bottom text-right px-">
 	        <img class="align-end" src="/img/footer.svg" alt="">
 	    </span>
 	  

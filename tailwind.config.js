@@ -159,6 +159,7 @@ module.exports = {
       '64': '16rem',
       '72': '18rem',
       '80': '20rem',
+      '1/4': '25%',
     },
     backgroundColor: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -290,6 +291,8 @@ module.exports = {
     height: theme => ({
       auto: 'auto',
       ...theme('spacing'),
+      '20': '5rem',
+      '28': '7rem',
       full: '100%',
       screen: '100vh',
       '20screen': '120vh',

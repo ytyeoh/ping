@@ -16,23 +16,23 @@
 
 	    	<div class="self-center lg:w-1/2 w-full  lg:px:0 "><img src="{{ .Params.image | absURL }}" alt=""></div>
 	    	<div class="self-center text-black lg:w-1/2 w-full px-4 sm:px:0 lg:pl-5 lg:pr-2">
-	    		<h2 class="text-blue-800  text-3xl xl:text-5xl lg:text-right pb-5 xl:pb-20">{{ .Params.title_1 }}</h2>
-	    		<p class="text-blue-800 text-xl  xl:pl-24">{{ .Params.desc_main | safeHTML}}</p>
+	    		<h2 class="xl:pl-24 text-blue-800  text-2xl xl:text-5xl lg:text-right pb-5 xl:pb-20">{{ .Params.title_1 }}</h2>
+	    		<p class="text-blue-800 text-lg xl:text-xl xl:pl-24">{{ .Params.desc_main | safeHTML}}</p>
 	    	</div>
 	    	
 	    </div>
 	</div>
 
-	<div class="shadow xl:shadow-desktop bg-cover w-full min-h-screen flex flex-col justify-center items-center py-12" style='background-image: url("./img/{{ .Params.qna.image }}");'>
+	<div class="shadow md:bg-cover bg-cover w-full min-h-screen flex flex-col justify-center items-center py-12" style='background-image: url("./img/{{ .Params.qna.image }}");'>
 	    <div class="self-center text-center w-full px-4 sm:px:0">
 	        
 	    </div>
 	    <div class="self-center w-full  xl:text-left flex flex-col md:flex-row flex-wrap px-4 xl:px:0">
 	       <h2 class="font-serif tracking-wide text-white font-bold text-4xl xl:text-7xl uppercase mb-4">{{ .Params.qna.title }}</h2>
 	       {{ range .Params.l }}
-		       <button type="button" class="py-5 text-4xl collapsible self-center w-full  text-left flex-wrap px-4 xl:px:0"> <i class="fa-solid fa-chevron-right pr-4"></i> {{ .a }}</button>
+		       <button type="button" class="py-5 text-lg collapsible self-center w-full  text-left flex-wrap px-4 xl:px:0"> <i class="fa-solid fa-chevron-right pr-4"></i> {{ .a }}</button>
 				<div class="content hidden self-center w-full pl-4 text-left flex-wrap px-4 xl:px:0">
-				  <p class="text-2xl self-center w-full pl-5 ml-4 text-left flex-wrap px-4 xl:px:0">{{ .q }}</p>
+				  <p class="text-sm self-center w-full pl-5 ml-4 text-left flex-wrap px-4 xl:px:0">{{ .q }}</p>
 				</div>
 			{{ end }}
 	    </div>

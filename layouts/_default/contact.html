@@ -4,8 +4,8 @@
 	    {{ partial "navbar.html" . }}
 		    <div class="flex flex-row justify-center pt-12">
 		    	<div class=" text-left w-full px-4 sm:px:0">
-	        		<h1 class="text-white text-5xl xl:text-7xl uppercase">{{ .Title }}</h1>
-	        		<p class="xl:w-1/2 text-white text-4xl xl:text-4xl">{{ .Params.desc }}</p>
+	        		<h1 class="text-white text-2xl xl:text-7xl uppercase">{{ .Title }}</h1>
+	        		<p class="xl:w-1/2 text-white text-lg xl:text-4xl">{{ .Params.desc }}</p>
 	        	</div>
 	        </div>
 	        <div class="flex flex-row justify-center pt-12 ">
@@ -40,13 +40,13 @@
 
 	        <div class="flex flex-row justify-center py-12">
 	        	<div class="flex flex-col px-4  text-left w-full">
-		        	<h2 class="text-white text-7xl capitalize ">{{ .Params.agent.title }}</h2>
+		        	<h2 class="text-white text-2xl xl:text-7xl capitalize ">{{ .Params.agent.title }}</h2>
 
-		        	<h5 class="text-white text-3xl uppercase">{{ .Params.agent.country }}</h5>
-		        	<div class="flex xl:flex-row flex-col justify-center pt-12 w-full">
+		        	<h5 class="text-white text-2xl lg:text-3xl uppercase">{{ .Params.agent.country }}</h5>
+		        	<div class="flex md:flex-row flex-col justify-center xl:pt-12 w-full">
 			        	{{ range .Params.agent.state }}
 			        		<div class="flex flex-col w-full ">
-								<h5 class="text-white text-3xl capitalize pt-5 xl:pt-1">{{.title}}</h5>
+								<h5 class="text-white text-2xl xl:text-3xl capitalize pt-5 xl:pt-1">{{.title}}</h5>
 								<ul>
 									{{ range .name }}
 										<li>{{.}}</li>
