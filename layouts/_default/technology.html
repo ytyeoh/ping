@@ -11,9 +11,9 @@
 		</div>
 	</div>
     
-	 {{ partial "section/right_2.html" (dict "title" (i18n "tech_1_title")  "desc" (i18n "tech_1_desc") "img" (i18n "tech_1_image"))  }}
+	 {{ partial "section/right_2.html" (dict "title" .Params.tech_1_title  "desc" .Params.tech_1_desc "img" .Params.tech_1_image)  }}
 
-	 {{ partial "section/left_1.html" (dict "title" (i18n "tech_2_title")  "desc" (i18n "tech_2_desc") "img" (i18n "tech_2_image"))  }}
+	 {{ partial "section/left_1.html" (dict "title" .Params.tech_2_title  "desc" .Params.tech_2_desc "img" .Params.tech_2_image)  }}
     
 
 {{ end }}
