@@ -1,39 +1,29 @@
 ---
-title: contact us
-translationKey: contact
-layout: contact
-desc: Fell free to contact us any time. We wil got back to you as soon as we can!
-name: name
-email: email
-msg: message
+title: 'contact us'
+translationKey: "contact"
+layout: "contact"
+desc: 'Fell free to contact us any time. We wil got back to you as soon as we can!'
+name: 'name'
+email: 'email'
+msg: 'message'
 agent:
-  title: ''
-  country: ''
+  title: 
+  country: 
   state:
-  - title: penang
+  - title: 
     name:
-    - MR.lim
-    - Mr.Tan
-    - Mrs.Ang
-  - title: kedah
+    -
+  - title: 
     name:
-    - MR.lim
-    - Mr.Tan
-    - Mrs.Ang
-  - title: kuala lumpur
+    -
+  - title: 
     name:
-    - MR.lim
-    - Mr.Tan
-    - Mrs.Ang
-  - title: Johor
+    -
+  - title: 
     name:
-    - MR.lim
-    - Mr.Tan
-    - Mrs.Ang
-  - title: Selangor
+    - 
+  - title: 
     name:
-    - MR.lim
-    - Mr.Tan
-    - Mrs.Ang
+    - 
 
 ---
