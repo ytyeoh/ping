@@ -6,7 +6,7 @@
     </div>
     <div class="self-center w-full sm:w-2/3 xl:w-1/2  xl:text-left flex flex-col md:flex-row flex-wrap px-4 xl:px:0">
        <h2 class="font-serif tracking-wide text-white font-bold text-2xl xl:text-7xl uppercase mb-4">{{ .title | safeHTML }}</h2>
-        <div class="font-seriffont-light text-white text-base xl:text-2xl mb-6">
+        <div class="font-seriffont-light text-white text-base xl:text-xl mb-6">
             {{ .desc }}
         </div>
         <a href="{{ .link | absLangURL }}" class='font-serif xl:pl-3 uppercase text-base xl:text-2xl text-white'>{{ .url | safeHTML }}</a>
