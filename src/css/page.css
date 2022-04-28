@@ -125,8 +125,8 @@ html {
 @tailwind components;
 
 @tailwind utilities;
-.right-25{
-  right: 25%;
+.left-25p{
+  left: 25%;
 }
 .shadow-desktop{
   box-shadow: inset 0 0 0 8000px rgba(0, 0, 0, 0.69);

@@ -21,12 +21,12 @@ googleAnalytics = "" # if needed...
 # these items will be rendered 1. into a tooltip in the navbar and 2. into the footer - consider that there's limited space when adding more items -> see ./layouts/partials
 [[params.social]]
     icon= "fa-solid fa-envelope"
-    title = "Twitter"
-    url = "https://twitter.com/#" # add your twitter handle
+    title = "Email"
+    url = "https://api.whatsapp.com/send?phone=60174621097&text=Hi" # add your twitter handle
 [[params.social]]
     icon= "fa-brands fa-facebook-f"
     title = "Facebook"
-    url = "https://linkedin.com/company/#" # add your linkedin profile URL
+    url = "https://www.facebook.com/8-Cell-Official-Store-108688894202154" # add your linkedin profile URL
 [[params.social]]
     icon= "fa-solid fa-phone-volume"
     title = "phone"

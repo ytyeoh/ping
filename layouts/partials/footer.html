@@ -1,19 +1,14 @@
-<footer class="w-full bg-gray-400 h-20 lg:h-28 flex flex-col sm:flex-row sm:justify-center text-lg tracking-wide px-4 sm:px-0 ">
-    <div class="md:w-1/2 w-full text-center pr-0 sm:pr-8 flex pt-3 flex-row">
-        {{ range .Site.Params.social }}
-            <div class="w-1/4">
-                <a class="text-black px-4 text-2xl xl:text-3xl no-underline" href="{{ .url }}" target="_blank" rel="_noopener"><i class="{{ .icon }}"></i></a>
-            </div>
+<footer class="bg-gray-400 grid gap-4 lg:grid-cols-2 justify-center lg:grid-rows-1 grid-cols-1 grid-rows-2 ">
+	<div class="grid gap-4 grid-cols-4 grid-rows-1">
+		{{ range .Site.Params.social }}
+                <a class="pt-3 text-black px-4 text-2xl xl:text-3xl no-underline" href="{{ .url }}" target="_blank" rel="_noopener"><i class="{{ .icon }}"></i></a>
+            
         {{ end }}
-    </div>
-    <div class="w-full flex flex-col">
-	    <span class="absolute right-25 md:right-0 w-1/2 pt-1 text-left block text-black text-xl font-bold  align-bottom text-right px-">
-	        <img class="align-end" src="/img/footer.svg" alt="">
-	    </span>
-	  
+	</div>
+	<div class="">
+		<img class=" px-16 lg:px-0 " src="/img/footer.svg" alt="">
 	</div>
 </footer>
-
 <!-- <div class="">
     <a id="btt" class="hidden fixed bottom-0 right-0 mb-4 mr-4 text-gray-200 border border-pink-600 hover:bg-gray-200 hover:text-pink-600 hover:border-browngray no-underline px-6 py-1 bg-pink-600 shadow-md" href="{{ if .IsHome }}#top{{ else }}{{ .Permalink }}#top{{ end }}" title="Back to Top">UP</a>
 </div> -->
