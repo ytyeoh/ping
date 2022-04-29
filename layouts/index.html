@@ -1,7 +1,10 @@
 {{ define "main" }}
 
     {{ partial "sections/home/header.html" . }}
-    {{ partial "section/center.html" (dict "title" (i18n "home_1_title")  "desc" (i18n "home_1_desc") "img" (i18n "home_1_image")) }}
-    {{ partial "section/right_1.html" (dict "title" (i18n "home_2_title")  "desc" (i18n "home_2_desc") "img" (i18n "home_2_image") "link" (i18n "home_2_link") "url" (i18n "home_2_a"))  }}
+    {{ $headless := .Site.GetPage "/sections" }}
+	{{ $header := $headless.Resources.GetMatch (printf "*%s*" "header") }}
+
+    {{ partial "section/center.html" (dict "title" $header.Params.home_1_title  "desc" $header.Params.home_1_desc "img" $header.Params.home_1_image) }}
+    {{ partial "section/right_1.html" (dict "title" $header.Params.home_2_title  "desc" $header.Params.home_2_desc "img" $header.Params.home_2_image "link" $header.Params.home_2_link "url" $header.Params.home_2_a)  }}
 
 {{ end }}
