@@ -16,6 +16,7 @@
 <base href="{{ .Site.BaseURL }}">
 <meta name="theme-color" content="#ffffff">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="/css/page.css">
 {{- if ne .Site.Params.googleAnalytics "" -}}
   {{ template "_internal/google_analytics_async.html" . }}
