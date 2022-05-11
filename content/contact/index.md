@@ -6,6 +6,7 @@ desc: 'Fell free to contact us any time. We wil got back to you as soon as we ca
 name: 'name'
 email: 'email'
 msg: 'message'
+send: 'send'
 agent:
   title: 
   country: 
