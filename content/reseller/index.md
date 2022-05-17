@@ -4,9 +4,9 @@ translationKey: "reseller"
 layout: "reseller"
 title_1: 'Reason/Why become consultant'
 desc_main: 'A beginning of something beautiful. You’ve got dreams. Whether it’s earning a little extra cash or making a full-time commitment, 8 Cell offers the freedom, flexibility and, of course, the fun that you’ve been looking for. <br><br>The prizes and perks are fabulous, and nothing beats the encouragement and empowerment you receive from other women like you!<br><br>And most important part is you are assisting customers in choosing the right beauty products to make most of their appearance look good despite age, lifestyle, and skin type.'
-image: 'img/reseller/a2.png'
+image: 'img/reseller/a2.jpg'
 qna:
-  image: 'reseller/a3.png'
+  image: 'reseller/a3.jpg'
   title: 'FAQ'
 l: 
   - a: 'What does an 8 Cell beauty consultant /reseller do?'

@@ -4,9 +4,9 @@ translationKey: "reseller"
 layout: "reseller"
 title_1: '为何成为经销商'
 desc_main: '每个人都梦想有一个美好的开始，无论是单纯赚外快还是全心投入冲刺，在8 cell，你可以自由、灵活的规划你的生涯，还可以从中找到乐趣！<br>没有任何东西比起高额奬金以及津贴更能够驱动你，更别说其还有跟你有着共同目的的人们一起奋斗！<br>更重要的是你在协助你的顾客挑选正确的美容产品，让她们比实际上看起来更年轻亮丽。'
-image: 'img/reseller/a2.png'
+image: 'img/reseller/a2.jpg'
 qna:
-  image: 'reseller/a3.png'
+  image: 'reseller/a3.jpg'
   title: '常见问题'
 l: 
   - a: '8 cell的经销商/美容顾问是做什么的？'
