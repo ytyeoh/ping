@@ -6,6 +6,47 @@
   background-color: rgba(0, 0, 0, 0.36);
 }
 #home {
-    background-image: url("../img/a1.jpg");
+    /*background-image: url("../img/a1.jpg");*/
+}
+.star{
+  list-style-image: url("../img/main/star.svg");
+}
+.owl-nav{
+  font-size: 8rem;
 }
 
+.owl-prev{
+  position: absolute;
+  left: 0;
+  top: 35%;
+}
+
+.owl-next{
+  position: absolute;
+  right:0;
+  top: 35%;
+}
+.owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  
+  padding-bottom: 20px;
+  border-radius: 15px 50px 30px 5px;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
+    opacity: 0.5;
+}

@@ -1,21 +1,21 @@
 
-<nav class="flex flex-col lg:flex-row w-full justify-between items-center px-4 lg:px-6 py-1 bg-black lg:bg-transparent shadow lg:shadow-none  lg:pt-12">
+<nav class="flex flex-col lg:flex-row w-full justify-between items-center px-4 lg:px-6 py-1 lg:bg-transparent  lg:shadow-none  main-bg">
     <div class="w-full lg:w-auto self-start lg:self-center flex flex-row lg:flex-none flex-no-wrap justify-between items-center">
-        <a href="{{ .Site.BaseURL | absLangURL }}" class="no-underline"><img src="/img/logo.svg" alt="AWE.SOME Logo" class="w-1/2 lg:w-full h-12 py-1"></a>
+        <a href="{{ .Site.BaseURL | absLangURL }}" class="no-underline"><img src="/img/logo.svg" alt="AWE.SOME Logo" class="w-1/2 lg:w-full py-1"></a>
         <button id="menuBtn" class="hamburger block lg:hidden focus:outline-none" type="button" onclick="navToggle();" aria-label="Show Menu"><span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span></button>
     </div>
-    <div id="menu" class="font-serif capitalize w-full lg:w-auto self-end lg:self-center hidden lg:flex flex-col lg:flex-row items-center h-full py-1 pb-4 lg:py-0 lg:pb-0">
-    	<a class="{{ if .IsHome }}text-gray-400{{else}} text-white {{ end }}  font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "menu_1"}} </a>
-        <a class="{{ if (eq .Layout "technology" )}}text-gray-400{{else}} text-white {{ end }}  font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "technology" | absLangURL }}">{{ i18n "menu_2"}} </a>
-        <a class="{{ if (eq .Layout "products" )}}text-gray-400{{else}} text-white {{ end }}  font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "products" | absLangURL }}">{{ i18n "menu_3"}} </a>
-        <a class=" {{ if (eq .Layout "reseller" )}}text-gray-400{{else}} text-white {{ end }}  lg:inline-block text-white font-bold hover:text-gray-400 text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer"  href="{{ "reseller" | absLangURL }}">{{ i18n "menu_4"}} </a>
-        <span id="lang" class="hidden lg:inline-block text-white font-bold hover:text-gray-400 text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer"> {{ i18n "menu_5"}} </span>
+    <div id="menu" class=" capitalize w-full lg:w-auto self-end lg:self-center hidden lg:flex flex-col lg:flex-row items-center h-full py-1 pb-4 lg:py-0 lg:pb-0">
+    	<a class="{{ if .IsHome }}text-black{{else}} text-white {{ end }}  font-bold hover:text-black text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ .Site.BaseURL | absLangURL }}">{{ i18n "menu_1"}} </a>
+        <a class="{{ if (eq .Layout "technology" )}}text-black{{else}} text-white {{ end }}  font-bold hover:text-black text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "technology" | absLangURL }}">{{ i18n "menu_2"}} </a>
+        <a class="{{ if (eq .Layout "products" )}}text-black{{else}} text-white {{ end }}  font-bold hover:text-black text-lg text-center w-full no-underline lg:w-auto lg:pr-4 py-2 lg:py-1" href="{{ "products" | absLangURL }}">{{ i18n "menu_3"}} </a>
+        <a class=" {{ if (eq .Layout "reseller" )}}text-black{{else}} text-white {{ end }}  lg:inline-block text-white font-bold hover:text-black text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer"  href="{{ "reseller" | absLangURL }}">{{ i18n "menu_4"}} </a>
+        <a class="{{ if (eq .Layout "contact" )}}active{{ end }} text-white font-bold hover:text-black text-lg text-center w-full no-underline lg:w-auto lg:px-4 py-2 lg:py-1" href="{{ "contact" | absLangURL }}">{{ i18n "menu_6"}}</a>
+        <span id="lang" class="border border-black hidden lg:inline-block text-black font-bold hover:text-black text-lg lg:w-auto lg:px-4 lg:py-1 cursor-pointer"> {{ i18n "menu_5"}} <i class="fa-solid fa-caret-down"></i></span>
         <ul>
         </ul>
-        <a class="{{ if (eq .Layout "contact" )}}active{{ end }} text-white font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:w-auto lg:px-4 py-2 lg:py-1" href="{{ "contact" | absLangURL }}">{{ i18n "menu_6"}}</a>
         {{$element := .Layout }}
         {{ range $.Site.Home.AllTranslations }}
-	        <a href="{{ .Permalink | absLangURL }}/{{$element}}"  class="text-white font-bold hover:text-gray-400 text-lg text-center w-full no-underline lg:hidden py-2" rel="noopener">{{ .Language.LanguageName }}</a>
+	        <a href="{{ .Permalink | absLangURL }}/{{$element}}"  class="text-white font-bold hover:text-black text-lg text-center w-full no-underline lg:hidden py-2" rel="noopener">{{ .Language.LanguageName }}</a>
         {{ end }}
     </div>
 </nav>

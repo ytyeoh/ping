@@ -30,41 +30,6 @@ html {
     }
 }
 @font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf") format('otf');
-  font-weight: 200;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Light.otf") format('otf');
-  font-weight: 300;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf") format('otf');
-  font-weight: 400;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf") format('otf');
-  font-weight: 500;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf") format('otf');
-  font-weight: 600;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf") format('otf');
-  font-weight: 700;
-}
-@font-face {
-  font-family: "NotoSerifSC";
-  src: url("../fonts/Noto_Serif_SC/NotoSerifSC-Black.otf") format('otf');
-  font-weight: 900;
-}
-@font-face {
   font-family: "NotoSansSC";
   src: url("../fonts/Noto_Sans_SC/NotoSansSC-Thin.otf") format('otf');
   font-weight: 100;
@@ -96,29 +61,103 @@ html {
 }
 
 @font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-Regular.ttf") format('truetype');
-  font-weight: 400;
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Black.ttf") format('truetype');
+  font-weight: 900;
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-Bold.ttf") format('truetype');
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-BlackItalic.ttf") format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Bold.ttf") format('truetype');
   font-weight: 700;
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-Light.ttf") format('truetype');
-  font-weight: 300;
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-BoldItalic.ttf") format('truetype');
+  font-weight: 700;
+  font-style: italic;
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-Medium.ttf") format('truetype');
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Hairline.ttf") format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-HairlineItalic.ttf") format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Heavy.ttf") format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-HeavyItalic.ttf") format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Italic.ttf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Light.ttf") format('truetype');
   font-weight: 500;
 }
 @font-face {
-  font-family: "Quicksand";
-  src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf") format('truetype');
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-LightItalic.ttf") format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Medium.ttf") format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-MediumItalic.ttf") format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Regular.ttf") format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Semibold.ttf") format('truetype');
   font-weight: 600;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-SemiboldItalic.ttf") format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-Thin.ttf") format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/lato/Lato-ThinItalic.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
 }
 @tailwind base;
 
@@ -203,4 +242,15 @@ img{
 
 *:hover {
     transition: all 400ms ease;
+}
+.border-t-1{
+  border-top-width: 1px;
+}
+
+.border{
+  border-width: 1px;
+}
+.down{
+  background-image:  url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='6.676' height='5.781' viewBox='0 0 6.676 5.781'><path id='Path_1780' data-name='Path 1780' d='M1805.932,89.339h6.676l-3.338,5.781Z' transform='translate(-1805.932 -89.339)'/></svg>");
+  color:  black;
 }

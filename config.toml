@@ -1,5 +1,5 @@
 # SETUP
-baseurl = "https://ytyeoh.github.io/8cell/"
+baseurl = "http://ytyeoh.github.io/ping/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 publishdir = "public"

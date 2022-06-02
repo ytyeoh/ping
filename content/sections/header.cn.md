@@ -1,18 +1,43 @@
 ---
-title: '逆龄铸造厂'
+title: 'PING INFINITE'
 translationKey: "about"
+slide:
+  - title: 'PING INFINITE'
+    sub_title: '你可以在这里轻易的掌控提升生活品质的方法！'
+    image: '/img/main/1.png'
+    btn: 'learn more'
+    url: 'technology'
+  - title: 'PING INFINITE'
+    sub_title: 'A Quality Lifestyle Can Be Easily Achieved Here!'
+    image: '/img/main/2.png'
+    btn: 'learn more'
+    url: 'technology'
+  - title: 'PING INFINITE'
+    sub_title: 'A Quality Lifestyle Can Be Easily Achieved Here!'
+    image: '/img/main/3.png'
+    btn: 'learn more'
+    url: 'technology'
 image_1: '/img/main/1.png'
 image_2: '/img/main/2.png'
 image_3: '/img/main/3.png'
 home_1_title: '关于我们'
-home_1_desc: '我们是拥有韩国专利技术的马来西亚美容产品生产商，专事生产高品质与容易使用的美容产品给予25岁以上的在职女性，我们相信顾客在使用了我们的产品之后可以拥有韩国玻璃肌。'
+home_1_desc: '财富的增值一直是一个谜，在文明演化中更是为财富的形式带来了巨大的改变。然而财富的本质却不曾改变，而财富的价值只有在流通中体现。当全球的经济都受到影响导致金钱无法流通，那么要将如何创造财富？<br><br>PING INFINITE的成立就是要创造一个让人们能够将生活方式从基本提升至更佳的一个社会。我们在PING INFINITE创造的这个方案不仅仅是提供一个能让我们够解决贫困的平台，也是为所有人提供一个追求富裕生活的一个长期平台。'
 home_1_image: 'main/a2.jpg'
+home_1a_image: 'img/main/a2.svg'
+home_1a_btn: 'learn more'
 
 home_2_title: '成为经销商'
 home_2_desc: '我们是一家快速成长并且寻求其他人加盟的美容公司。加入8Cell 经销商计划，你可以拥有稳定的经济收入井且为你的客户提供科技最前沿的美容产品。'
 home_2_image: 'main/a3.jpg'
 home_2_link: 'reseller'
 home_2_a: '今天就加入！<i class="fa-solid fa-angle-right text-blue-900"></i>'
+home_2a_image: 'img/main/a3.svg'
+home_2a_btn: 'learn more'
+home_2a_key:
+  - name: 'Seize the latest business opportunity'
+  - name: 'Meet elites from all walks of life'
+  - name: 'Priority to involve in PING INFINITE future development and investment'
+  - name: 'Enjoy the benefits of PING INFINITE'
 ---
 
 Almost before we knew

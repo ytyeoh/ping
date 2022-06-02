@@ -35,6 +35,7 @@ module.exports = {
         600: '#757575',
         700: '#616161',
         800: '#424242',
+        850: '#4D4D4D',
         900: '#212121',
       },
       red: {
@@ -101,6 +102,7 @@ module.exports = {
         600: '#3182ce',
         700: '#2b6cb0',
         800: '#2c5282',
+        850: '#56AFD3',
         900: '#2a4365',
       },
       indigo: {
@@ -123,6 +125,7 @@ module.exports = {
         600: '#805ad5',
         700: '#6b46c1',
         800: '#553c9a',
+        850: '#532E8B',
         900: '#44337a',
       },
       pink: {
@@ -243,7 +246,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Quicksand',
+        'Lato',
         'NotoSansSC',
         'system-ui',
         '-apple-system',

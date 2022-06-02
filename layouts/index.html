@@ -4,7 +4,7 @@
     {{ $headless := .Site.GetPage "/sections" }}
 	{{ $header := $headless.Resources.GetMatch (printf "*%s*" "header") }}
 
-    {{ partial "section/center.html" (dict "title" $header.Params.home_1_title  "desc" $header.Params.home_1_desc "img" $header.Params.home_1_image) }}
-    {{ partial "section/right_1.html" (dict "title" $header.Params.home_2_title  "desc" $header.Params.home_2_desc "img" $header.Params.home_2_image "link" $header.Params.home_2_link "url" $header.Params.home_2_a)  }}
+    {{ partial "section/left_img1.html" (dict "title" $header.Params.title "sub_title" $header.Params.home_1_title  "desc" $header.Params.home_1_desc "image" $header.Params.home_1a_image "btn" $header.Params.home_1a_btn) }}
+    {{ partial "section/right_img1.html" (dict "title" $header.Params.title "sub_title" $header.Params.home_2_title  "desc" $header.Params.home_2_desc "image" $header.Params.home_2a_image "key" $header.Params.home_2a_key "btn" $header.Params.home_2a_btn) }}
 
 {{ end }}
