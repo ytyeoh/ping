@@ -193,6 +193,7 @@ module.exports = {
       default: '0.25rem',
       md: '0.375rem',
       lg: '0.5rem',
+      '2lg': '2rem',
       full: '9999px',
     },
     borderWidth: {
@@ -296,6 +297,7 @@ module.exports = {
       ...theme('spacing'),
       '20': '5rem',
       '28': '7rem',
+      '30': '30rem',
       full: '100%',
       screen: '100vh',
       '20screen': '120vh',

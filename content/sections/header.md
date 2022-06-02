@@ -39,5 +39,18 @@ home_2a_key:
   - name: 'Meet elites from all walks of life'
   - name: 'Priority to involve in PING INFINITE future development and investment'
   - name: 'Enjoy the benefits of PING INFINITE'
+
+
+home_3_title: 'ecosystem'
+home_3:
+  - icon: 'img/main/b1.svg'
+    title: ' E-Wallet'
+    desc: 'PING INFINITE E-wallet is not going to be an ordinary blockchain wallet, PING INFINITE E-wallet is more liquid than the traditional wallet...'
+  - icon: 'img/main/b2.svg'
+    title: 'Pay'
+    desc: 'Using PING INFINITE E-wallet, we will implement a payment system to enhance the usage of PING INFINITE E-Wallet, this payment system named PING INFINITE Pay...'
+  - icon: 'img/main/b3.svg'
+    title: 'Exchange Platform'
+    desc: 'PING INFINITE will be launching a cryptocurrency exchanger platform which involve of cross-chain transaction technology'
 ---
 

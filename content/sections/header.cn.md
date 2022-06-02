@@ -38,6 +38,18 @@ home_2a_key:
   - name: 'Meet elites from all walks of life'
   - name: 'Priority to involve in PING INFINITE future development and investment'
   - name: 'Enjoy the benefits of PING INFINITE'
+
+home_3_title: 'ecosystem'
+home_3:
+  - icon: 'img/main/b1.svg'
+    title: '电子钱包'
+    desc: 'PING INFINITE电子钱包不会是一般的 区块链钱包，PING INFINITE电子钱包比 传统电子钱包有更多的变化...'
+  - icon: 'img/main/b2.svg'
+    title: '支付'
+    desc: '我们将落实一个能够提升PING INFINITE 电子钱包使用体验的支付系统，这个系统就叫做PING INFINITE支付...'
+  - icon: 'img/main/b3.svg'
+    title: '兑换平台'
+    desc: 'PING INFINITE将拥有 跨区块链加密货币兑换平台...'
 ---
 
 Almost before we knew

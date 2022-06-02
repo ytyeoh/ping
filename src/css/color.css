@@ -1,3 +1,7 @@
 .main-bg{
   background: linear-gradient(to right, #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
 }
+
+.main-bg-ud{
+  background: linear-gradient(0deg,  #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
+}

@@ -1,0 +1,22 @@
+
+
+<div class="mx-auto p-6">
+  <div class="flex flex-col lg:flex-row items-stretch -mx-4 text-center">
+  	{{$title := .main_title}}
+  	{{ range .array}}
+
+    <div class="flex-1 p-4">
+      <div class="block main-bg-ud overflow-hidden border-2 h-full rounded-2lg">
+        <div class="p-4">
+	    	<span class="justify-center items-center grid my-5"><img src="{{ .icon }}" alt="" class="w-50"></span>
+          <h2 class="mt-10 mb-2 font-black text-2xl ">
+            {{ $title }} {{ .title }}
+          </h2>
+
+          <p class="text-xl text-center leading-loose mx-10 mb-8">{{ .desc }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
