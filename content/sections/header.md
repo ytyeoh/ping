@@ -42,6 +42,8 @@ home_2a_key:
 
 
 home_3_title: 'ecosystem'
+home_3_btn: 'find put more'
+home_3_url: '/fsd'
 home_3:
   - icon: 'img/main/b1.svg'
     title: ' E-Wallet'
