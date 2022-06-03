@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<div class="w-full  flex flex-col justify-between" id="{{.Layout}}">
+
+	    {{ partial "navbar.html" . }}
+		    
+
+		
+	
+	</div>
+	<div class="justify-center items-center  w-full flex flex-col " id="aaa">
+		   
+		 <h2 class="font-serif tracking-wide text-white font-bold text-2xl xl:text-7xl uppercase mb-4">{{ .Title }}</h2>
+		        <div class="font-light text-white text-base xl:text-xl mb-6 text-left lg:text-center">
+		            
+		        </div>   
+	</div>
+
+	{{ partial "section/left_img1.html" (dict  "desc" .Params.product_1_desc "img" .Params.product_1_image "image" .Params.product_1_image2)  }}
+
+    {{ partial "section/right_img1.html" (dict "title" .Params.product_2_title  "desc" .Params.product_2_desc "img" .Params.product_2_image "image" .Params.product_2_image2 "h3_class" "text-blue-850")  }}
+    
+	
+{{ end }}

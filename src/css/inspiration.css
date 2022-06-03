@@ -1,0 +1,7 @@
+#aaa{
+  background: linear-gradient(90deg, rgba(84,46,138,0.7) 0%, rgba(87,199,223,0.7) 94.15%, rgba(87,199,223,0.7) 100%), url("../img/inspiration/a1.png") no-repeat center 25% fixed;
+
+  background-size: ;  
+  position: relative;
+  min-height: 550px;
+}

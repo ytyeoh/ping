@@ -5,3 +5,18 @@
 .main-bg-ud{
   background: linear-gradient(0deg,  #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
 }
+
+.img-gradient{
+  display: inline-block;
+}
+.img-gradient::before {
+    z-index: 1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(90deg, rgba(84,46,138,0.7) 0%, rgba(87,199,223,0.7) 94.15%, rgba(87,199,223,0.7) 100%);
+}
+
