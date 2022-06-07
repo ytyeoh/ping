@@ -1,0 +1,13 @@
+#ccc{
+  background: linear-gradient(90deg, rgba(84,46,138,0.4) 0%, rgba(87,199,223,0.4) 94.15%, rgba(87,199,223,0.4) 100%), url("../img/ecosystem/a1.png") no-repeat center 25% fixed;
+
+  background-size: ;  
+  position: relative;
+  min-height: 500px;
+}
+#myTab svg{
+  /*background: -webkit-linear-gradient(#542e8a 0%, #57c7df 94.15%, #57c7df 100%);*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

@@ -6,6 +6,10 @@
   background: linear-gradient(0deg,  #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
 }
 
+.main-bg-ecosystem{
+  background: linear-gradient(0deg,  #542e8a 0%, #54378f 11.64%, #544f9c 30.69%, #5577b2 54.77%, #56aed1 82.69%, #57c7df 94.15%, #57c7df 100%);
+}
+
 .img-gradient{
   display: inline-block;
 }

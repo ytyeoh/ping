@@ -1,0 +1,66 @@
+
+.bbbb{
+  background:-moz-linear-gradient(top, #542e8a 0%, #54378f 11.64%, #544f9c 30.69%, #5577b2 54.77%, #56aed1 82.69%, #57c7df 94.15%, #57c7df 100%); 
+  background: -webkit-linear-gradient(top, #542e8a 0%, #54378f 11.64%, #544f9c 30.69%, #5577b2 54.77%, #56aed1 82.69%, #57c7df 94.15%, #57c7df 100%); 
+  background: linear-gradient(to top, #542e8a 0%, #54378f 11.64%, #544f9c 30.69%, #5577b2 54.77%, #56aed1 82.69%, #57c7df 94.15%, #57c7df 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+ -webkit-text-fill-color:transparent;
+}
+.fa {
+    font-size: 3.25rem;
+    display: inline;
+    margin-right: 2rem;
+ }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ewallet:before {
+  content: "\e900";
+}
+.icon-social:before {
+  content: "\e901";
+}
+.icon-entertainment:before {
+  content: "\e902";
+}
+.icon-life:before {
+  content: "\e903";
+}
+.icon-world:before {
+  content: "\e904";
+}
+.icon-home:before {
+  content: "\e905";
+}
+.icon-mall:before {
+  content: "\e906";
+}
+.icon-finance:before {
+  content: "\e907";
+}
+.icon-education:before {
+  content: "\e908";
+}
+.icon-exchange:before {
+  content: "\e909";
+}
+.icon-pay:before {
+  content: "\e90a";
+}
+.icon-deviantart:before {
+  content: "\eaaa";
+}
