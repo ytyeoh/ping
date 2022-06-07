@@ -21,7 +21,7 @@
 	    <ul class=" float-left block flex-wrap text-sm font-medium text-center text-black border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
 	    	{{ range .Params.tab }}
 	        <li class="mr-2 tabcolor" role="presentation">
-	            <button class="text-left text-xl ml-5 my-3 w-3/4 inline-flex p-4 rounded-t-lg border-2 border-black dark:hover:text-gray-300 group" id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb"></span>PING INFINITE {{ .name}}</button>
+	            <button class=" items-center text-left text-xl ml-5 my-3 w-full inline-flex p-4 rounded-t-lg  dark:hover:text-gray-300 group" id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb"></span>PING INFINITE {{ .name}}</button>
 	        </li>
 	        {{ end }}
 	    </ul>
