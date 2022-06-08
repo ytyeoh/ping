@@ -1,7 +1,7 @@
 ---
-title: ' 活动'
+title: '告示板'
 translationKey: "products"
-layout: "notice"
+layout: "告示板"
 img: 'img/notice/a1.png'
 
 subtitle: 'PING INFINITE 里程碑'
