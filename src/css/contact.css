@@ -1,4 +1,13 @@
-#contact{
-  background: url("../img/contact/a1.jpg") no-repeat center center fixed;
-  background-size: cover;
+#eee{
+  background: linear-gradient(90deg, rgba(84,46,138,0.4) 0%, rgba(87,199,223,0.4) 94.15%, rgba(87,199,223,0.4) 100%), url("../img/contact/a1.png") no-repeat center 25% fixed;
+
+  background-size: ;  
+  position: relative;
+  min-height: 500px;
+}
+
+#contactme input[type="text"], #contactme textarea
+{
+    background: transparent;
+    border: 2px solid white;
 }

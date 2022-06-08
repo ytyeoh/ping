@@ -1,62 +1,51 @@
 {{ define "main" }}
-	<div class="shadow xl:shadow-desktop w-full min-h-screen flex flex-col justify-between" id="{{.Layout}}">
+	<div class=" w-full min-h-screen flex flex-col justify-between" id="{{.Layout}}">
 		<div class=" h-full">
 	    {{ partial "navbar.html" . }}
-		    <div class="flex flex-row justify-center pt-12">
-		    	<div class=" text-left w-full px-4 sm:px:0">
-	        		<h1 class="text-white text-2xl xl:text-7xl uppercase">{{ .Title }}</h1>
-	        		<p class="xl:w-1/2 text-white text-base xl:text-4xl">{{ .Params.desc }}</p>
-	        	</div>
-	        </div>
-	        <div class="flex flex-row justify-center pt-12 ">
-	        	<form method="post" class="flex flex-col text-left w-full" action="https://8cellsbeautylab.com/email.php">
+		    <div class="justify-center items-center  w-full flex flex-col " id="eee">
+		   
+				 <h2 class="font-serif tracking-wide text-white font-bold text-2xl xl:text-7xl uppercase mb-4">{{ .Title }}</h2>
+		        <div class="font-light text-white text-base xl:text-xl mb-6 text-left lg:text-center">
+		            
+				        </div>   
+			</div>
+			<h3 class="flex font-serif justify-center items-center mt-16 tracking-wide text-purple-850 font-bold text-2xl xl:text-5xl uppercase mb-4">{{ .Params.desc }}</h3>
+	        <div class="flex flex-row justify-center items-center my-10 mx-1/8 ">
+	        	<form method="post" id= 'contactme' class="flex flex-col justify-center items-center text-left w-full main-bg-ud p-5" action="https://8cellsbeautylab.com/email.php">
 	        		<input name="a1" id="name" type="hidden">
 	        		<input name="a2" id="username1" type="hidden">
-	        		<div class="w-full xl:w-1/2 mb-4 px-4">
+	        		<div class="w-full  mb-4 px-4">
 				      <label class="uppercase block text-white text-sm font-bold mb-2" for="username">
 				        {{ .Params.name }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="a" id="username" type="text">
 				    </div>
-				    <div class="w-full xl:w-1/2 mb-4 px-4">
+				    <div class="w-full  mb-4 px-4">
 				      <label class="uppercase block text-white text-sm font-bold mb-2" for="email">
 				        {{ .Params.email }}
 				      </label>
-				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="b" id="email" type="text">
+				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="c" id="subject" type="text">
 				    </div>
-				    <div class="w-full xl:w-1/2 mb-4 px-4">
+				    <div class="w-full  mb-4 px-4">
+				      <label class="uppercase block text-white text-sm font-bold mb-2" for="subject">
+				        {{ .Params.subject }}
+				      </label>
+				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="a" id="subject" type="text">
+				    </div>
+				    <div class="w-full  mb-4 px-4">
 				      <label class=" uppercase block text-white text-sm font-bold mb-2" for="msg">
 				        {{ .Params.msg }}
 				      </label>
-				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="d" id="msg" type="text">
-				      
+				      <textarea class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" rows="9" name="d" id="msg" type="text">
+				      </textarea>
 				    </div>
-				    <div class="w-full mb-4 px-4">
-					    <button>{{ .Params.send}}</button>
+				    <div class="w-full mb-10 mt-4 px-4 text-center ">
+					    <button class="w-1/4 bg-white text-black">{{ .Params.send}}</button>
 					</div>
 	        	</form>
 	        	
 	        </div>
 
-	        <div class="flex flex-row justify-center py-12">
-	        	<div class="flex flex-col px-4  text-left w-full">
-		        	<h2 class="text-white text-2xl xl:text-7xl capitalize ">{{ .Params.agent.title }}</h2>
-
-		        	<h5 class="text-white text-2xl lg:text-3xl uppercase">{{ .Params.agent.country }}</h5>
-		        	<div class="flex md:flex-row flex-col justify-center xl:pt-12 w-full">
-			        	{{ range .Params.agent.state }}
-			        		<div class="flex flex-col w-full ">
-								<h5 class="text-white text-2xl xl:text-3xl capitalize pt-5 xl:pt-1">{{.title}}</h5>
-								<ul>
-									{{ range .name }}
-										<li>{{.}}</li>
-									{{ end }}
-								</ul>
-							</div>
-			        	{{ end }}
-			        </div>
-	        	</div>
-	        </div>
 		</div>
 	</div>
     

@@ -7,24 +7,5 @@ name: 名字
 email: 电邮
 msg: 资讯
 send: 发送
-agent:
-  title: 
-  country: 
-  state:
-  - title: 
-    name:
-    -
-  - title: 
-    name:
-    -
-  - title: 
-    name:
-    -
-  - title: 
-    name:
-    - 
-  - title: 
-    name:
-    - 
 
 ---

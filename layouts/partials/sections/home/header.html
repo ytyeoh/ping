@@ -38,7 +38,7 @@
 
 	    <div class="owl-carousel owl-theme ">
 	    	{{ range $header.Params.slide }}
-	    		<div class="item "><div class="overlay"></div><div class="owl-text-overlay "><h2 class="text-3xl owl-title">{{ .title }}</h2><h3 class="text-2xl lg:text-7xl">{{ .sub_title }}</h3><a href="{{ .url | absLangURL }}" class="border border-white lg:text-2xl text-lg uppercase px-8 py-2">{{ .btn }}</a></div><img src="{{ .image }}"  class=" max-w-full mx-auto"></div>
+	    		<div class="item "><div class="overlay"></div><div class="owl-text-overlay "><h2 class="text-3xl owl-title">{{ .title }}</h2><h3 class="text-2xl lg:text-7xl leading-20">{{ .sub_title }}</h3><a href="{{ .url | absLangURL }}" class="border border-white lg:text-2xl text-lg uppercase px-8 py-2">{{ .btn }}</a></div><img src="{{ .image }}"  class=" max-w-full mx-auto"></div>
 	    	{{ end }}
 		    
 		    
