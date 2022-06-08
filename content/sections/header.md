@@ -21,7 +21,7 @@ slide:
 image_1: '/img/main/1.png'
 image_2: '/img/main/2.png'
 image_3: '/img/main/3.png'
-home_1_title: 'about us'
+home_1_title: 'Inspiration'
 home_1_desc: "The mystery of wealth has never stopped its eternal flow of value, the evolution of civilization has brought about tremendous changes in the form of wealth, however the essence of wealth has never changed, value of wealth can ONLY be found when there is a flow. When the global economy is affected, money couldn't flow, how can wealth be created?<br><br>The establishment of PING INFINITE is to create a society for people pursue a better lifestyle from the basic living necessity to a better living lifestyle. In PING INFINITE, we created this program not just to provide a platform for us to solve the poverty but to provide a long-lasting platform for everyone to pursue a luxury lifestyle."
 home_1_image: 'main/a2.jpg'
 home_1a_image: 'img/main/a2.svg'

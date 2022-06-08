@@ -15,16 +15,8 @@
             </div>   
   </div>
 
-  <div class="flex flex-col min-h-screen items-center" id="ddd1">
-  	<h2 class="font-serif tracking-wide text-blue-850 text-center text-4xl  uppercase my-10">{{ .Params.subtitle }}</h2>
-  	{{ range .Params.video }}
-  		<video class="w-1/3 rounded-2lg " muted controls>
-		  <source src="../video/{{.name}}.mp4" type="video/mp4">
-		  
-		Your browser does not support the video tag.
-		</video>
-		<h4 class="text-black text-2xl my-10">{{.title}}</h4>
-  	{{ end }}
+  <div class="flex flex-col items-center" >
+    <img src="{{.Params.img}}" alt="" class="my-16 w-3/4 ">
   </div>
 
   

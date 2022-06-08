@@ -39,10 +39,10 @@ googleAnalytics = "" # if needed...
 # defaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
-    title = "8cell Website"
+    title = "Ping"
     languageName = "English"
     weight = 1
   [languages.cn]
-    title = "8cell网站"
+    title = "Ping网站"
     languageName = "Chinese"
     weight = 2
