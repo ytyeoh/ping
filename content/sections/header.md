@@ -41,6 +41,7 @@ home_2a_btn:
 home_2a_key:
   - name: 'Seize the latest business opportunity'
   - name: 'Meet elites from all walks of life'
+  - name: 'Grasp the trend and Creates trend'
   - name: 'Priority to involve in PING INFINITE future development and investment'
   - name: 'Enjoy the benefits of PING INFINITE'
 

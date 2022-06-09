@@ -7,6 +7,6 @@ subject: 'subject'
 name: 'name'
 email: 'email'
 msg: 'message'
-send: 'send'
+send: 'send message'
 
 ---

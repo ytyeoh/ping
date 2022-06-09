@@ -2,12 +2,12 @@
     <div class="flex xl:flex-row flex-col justify-center pt-12 min-w-full">
     	<div class="self-center xl:w-1/2 w-full px-4 sm:px:0 xl:pr-5 pb-6"><img src="{{ .image | absURL }}" alt=""></div>
     	<div class="self-center w-full px-4 sm:px:0 xl:pr-5 xl:w-1/2 px-4 sm:px:0 justify-items-end">
-    		<h3 class="font-serif text-purple-850 xl:text-3xl text-2xl uppercase text-left xl:pl-5">{{ .title }}</h3>
-    		<h2 class="font-serif text-blue-850 xl:text-6xl text-2xl uppercase text-left xl:pl-5">{{ .sub_title }}</h2>
+    		<h3 class="font-serif text-purple-850 xl:text-3xl text-2xl font-black uppercase text-left xl:pl-5">{{ .title }}</h3>
+    		<h2 class="font-serif text-blue-850 xl:text-6xl text-2xl font-bold lg:mt-5 lg:mb-8 uppercase text-left xl:pl-5">{{ .sub_title }}</h2>
     		<div class="self-center text-gray-850 w-full mt-5 text-base xl:text-2xl px-4 sm:px:0 text-left  leading-loose mb-5">{{ .desc | safeHTML }}</div>
     		{{ with .btn }}
 	    		{{ range . }}
-	    		<a href="{{ .url }}" class="main-bg hover:bg-blue-700 text-white xl:text-2xl py-2 px-6 rounded font-medium xl:ml-5">{{ .text }}</a>
+	    		<a href="{{ .url }}" class="main-bg hover:bg-blue-700 uppercase text-white xl:text-2xl py-2 px-6 rounded font-medium xl:ml-5">{{ .text }}</a>
 	    		{{ end }}
 		    {{ end }}	
     	</div>

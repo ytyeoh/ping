@@ -6,6 +6,6 @@
 
     {{ partial "section/left_img1.html" (dict "title" $header.Params.title "sub_title" $header.Params.home_1_title  "desc" $header.Params.home_1_desc "image" $header.Params.home_1a_image "btn" $header.Params.home_1a_btn) }}
     {{ partial "section/right_img1.html" (dict "title" $header.Params.title "sub_title" $header.Params.home_2_title  "desc" $header.Params.home_2_desc "image" $header.Params.home_2a_image "key" $header.Params.home_2a_key "btn" $header.Params.home_2a_btn "h3_class" "text-purple-850") }}
-    {{ partial "section/3_info.html" (dict "array" $header.Params.home_3 "main_title" $header.Params.title "btn" $header.Params.home_3_btn "url" $header.Params.home_3_url)}}
+    {{ partial "section/3_info.html" (dict "array" $header.Params.home_3 "main_title" $header.Params.title "btn" $header.Params.home_3_btn "url" $header.Params.home_3_url "subtitle" $header.Params.home_3_title )}}
 
 {{ end }}

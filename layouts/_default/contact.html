@@ -4,43 +4,44 @@
 	    {{ partial "navbar.html" . }}
 		    <div class="justify-center items-center  w-full flex flex-col " id="eee">
 		   
-				 <h2 class="font-serif tracking-wide text-white font-bold text-2xl xl:text-7xl uppercase mb-4">{{ .Title }}</h2>
+				 <h2 class="font-serif tracking-wide text-white font-bold text-2xl xl:text-7xl my-10 text-shadow capitalize mb-4">{{ .Title }}</h2>
+
 		        <div class="font-light text-white text-base xl:text-xl mb-6 text-left lg:text-center">
 		            
 				        </div>   
 			</div>
-			<h3 class="flex font-serif justify-center items-center mt-16 tracking-wide text-purple-850 font-bold text-2xl xl:text-5xl uppercase mb-4">{{ .Params.desc }}</h3>
-	        <div class="flex flex-row justify-center items-center my-10 mx-1/8 ">
+			<h3 class="flex font-serif text-center justify-center items-center mt-16 tracking-wide text-purple-850 font-bold text-xl lg:text-2xl xl:text-5xl capitalize mb-4">{{ .Params.desc }}</h3>
+	        <div class="flex flex-row justify-center items-center my-10 mx-3 lg:mx-1/8 ">
 	        	<form method="post" id= 'contactme' class="flex flex-col justify-center items-center text-left w-full main-bg-ud p-5" action="https://8cellsbeautylab.com/email.php">
 	        		<input name="a1" id="name" type="hidden">
 	        		<input name="a2" id="username1" type="hidden">
-	        		<div class="w-full  mb-4 px-4">
+	        		<div class="w-full  mb-4 px-2 lg:px-4">
 				      <label class="uppercase block text-white text-sm font-bold mb-2" for="username">
 				        {{ .Params.name }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="a" id="username" type="text">
 				    </div>
-				    <div class="w-full  mb-4 px-4">
+				    <div class="w-full  mb-4 px-2 lg:px-4">
 				      <label class="uppercase block text-white text-sm font-bold mb-2" for="email">
 				        {{ .Params.email }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="c" id="subject" type="text">
 				    </div>
-				    <div class="w-full  mb-4 px-4">
+				    <div class="w-full  mb-4 px-2 lg:px-4">
 				      <label class="uppercase block text-white text-sm font-bold mb-2" for="subject">
 				        {{ .Params.subject }}
 				      </label>
 				      <input class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" name="a" id="subject" type="text">
 				    </div>
-				    <div class="w-full  mb-4 px-4">
+				    <div class="w-full  mb-4 px-2 lg:px-4">
 				      <label class=" uppercase block text-white text-sm font-bold mb-2" for="msg">
 				        {{ .Params.msg }}
 				      </label>
 				      <textarea class="appearance-none w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" rows="9" name="d" id="msg" type="text">
 				      </textarea>
 				    </div>
-				    <div class="w-full mb-10 mt-4 px-4 text-center ">
-					    <button class="w-1/4 bg-white text-black">{{ .Params.send}}</button>
+				    <div class="w-full mb-10 mt-4 px-2 lg:px-4 text-center ">
+					    <button class="w-1/2 lg:w-1/4 bg-white text-black uppercase">{{ .Params.send}}</button>
 					</div>
 	        	</form>
 	        	

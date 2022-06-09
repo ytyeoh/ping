@@ -23,4 +23,9 @@
     height: 90%;
     background: linear-gradient(90deg, rgba(84,46,138,0.7) 0%, rgba(87,199,223,0.7) 94.15%, rgba(87,199,223,0.7) 100%);
 }
-
+.main-bg-borer{
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(0deg, rgba(84,46,138,0.7) 0%, rgba(87,199,223,0.7) 94.15%, rgba(87,199,223,0.7) 100%);
+}

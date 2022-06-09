@@ -50,3 +50,6 @@
     background: linear-gradient(to right, #542e8a 0%, #57c7df 94.15%, #57c7df 100%);
     opacity: 0.5;
 }
+.text-shadow{
+  text-shadow: 7px 7px 8px rgba(0, 0, 0, 0.6);
+}

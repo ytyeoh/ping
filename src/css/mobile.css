@@ -6,13 +6,13 @@
   .owl-prev{
     position: absolute;
     left: 0;
-    top: 45%;
+    top: 25%;
   }
 
   .owl-next{
     position: absolute;
     right:0;
-    top: 45%;
+    top: 25%;
   }
   #aaa{
     /*background-size: contain;*/

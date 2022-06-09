@@ -17,7 +17,8 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
-      xl: '1279px',
+      xl: '1280px',
+      xxl: '1920px',
     },
     colors: {
       transparent: 'transparent',
@@ -194,6 +195,7 @@ module.exports = {
       default: '0.25rem',
       md: '0.375rem',
       lg: '0.5rem',
+      xl: '1rem',
       '2lg': '2rem',
       full: '9999px',
     },

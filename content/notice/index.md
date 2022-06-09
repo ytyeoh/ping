@@ -1,5 +1,5 @@
 ---
-title: 'notice'
+title: 'notice board'
 translationKey: "products"
 layout: "notice"
 img: 'img/notice/a2.png'

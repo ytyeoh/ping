@@ -11,7 +11,6 @@ product_1_title: 'gentle clarifying gel cleanser'
 product_1_image: 'products/a3.png'
 product_1_desc: "The concept of PING INFINITE Ecosystem is to form a comprehensiveecosystem for life, meaning that we not only focusing on basic livingnecessity but also focusing on improving our lifestyle. PING INFINITEecosystem combines varies elements such as Efficiency (improveliving efficiency), Financial Planning (worry-free lifestyle), SupportingSystem (Gathers people), Taste of Life (Improve living quality),Education (Improve knowledge in all aspects). In PING INFINITEecosystem, we will gather and form a strong union within each other,it is something that you could not imagine, and we promise that inPING INFINITE, we will definitely bring you an extraordinaryexperience and leading you towards a higher peak."
 product_1_image2: 'img/ecosystem/a2.svg'
-title: 'PING INFINITE'
 tab:
   - name: 'E-Wallet'
     icon: 'ewallet'

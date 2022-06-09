@@ -11,7 +11,6 @@ product_1_image: 'products/a3.png'
 product_1_desc: "PING INFINITE生态圈是为了打造一个综合的生态圈，这意味着 我们不仅专注在基本生活必须，也专注在提升生活品质。PING INFINITE生态圈整合了不同的元素如：效率(提升生活效率)、财务 规划（无忧无虑的生活），资源整合（集合人群）、品味人生（提升生 活品质）、教育（提升各方面的知识）。 在PING INFINITE生态圈， 我们将会聚在一起并组成一个难以想象的强大的联盟，我们承诺， 在PING INFINITE，我们绝对会带给你非凡的体验以及带你登上 另一高峰。"
 product_1_image2: 'img/ecosystem/a2.svg'
 
-title: 'PING INFINITE'
 tab:
   - name: '电子钱包'
     icon: 'ewallet'
