@@ -3062,7 +3062,7 @@ function tabs_createClass(Constructor, protoProps, staticProps) { if (protoProps
 var tabs_Default = {
   defaultTabId: null,
   activeClasses: 'main-bg-ud text-white hover:text-grey-200 dark:text-blue-500 dark:hover:text-blue-500 border-white dark:border-white',
-  inactiveClasses: 'border-2 border-black dark:border-transparent text-black hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300',
+  inactiveClasses: 'gradient-border border-transparent text-black hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300',
   onShow: function onShow() {}
 };
 
