@@ -1,5 +1,5 @@
 ---
-title: 'PING INFINIT Prestige club'
+title: 'PING INFINITE Prestige club'
 translationKey: "products"
 layout: "prestige"
 img: 'img/prestige/a1.png'
