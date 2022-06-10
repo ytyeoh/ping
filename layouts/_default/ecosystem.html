@@ -16,19 +16,19 @@
 	</div>
 
 	{{ partial "section/left_img1.html" (dict  "desc" .Params.product_1_desc "img" .Params.product_1_image "image" .Params.product_1_image2)  }}
-	<div class="flex flex-col lg:flex lg:flex-row">
-    <div class="mb-4 min-h-screen block w-1/4 ">
-	    <ul class=" float-left block flex-wrap text-sm font-medium text-center text-black border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+	<div class="flex flex-col sm:flex sm:flex-row">
+    <div class="mb-4 block sm:w-1/4 ">
+	    <ul class="inline-grid grid-cols-2 float-left sm:block flex-wrap text-sm font-medium text-center text-black border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
 	    	{{ range .Params.tab }}
-	        <li class="mr-2 tabcolor" role="presentation">
-	            <button class="rounded-xl items-center text-left text-xl ml-5 my-3 w-full inline-flex p-4  dark:hover:text-gray-300 group font-bold " id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb"></span>PING INFINITE {{ .name}}</button>
+	        <li class="mx-3 lg:mr-2 tabcolor" role="presentation">
+	            <button class="rounded-xl items-center text-left text-sm p-2 mx-1 my-3 lg:text-xl lg:ml-5 lg:my-3 w-full inline-flex lg:p-4  dark:hover:text-gray-300 group font-bold " id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb text-2xl lg:text-4xl mr-5 lg:mr-2"></span>PING INFINITE {{ .name}}</button>
 	        </li>
 	        {{ end }}
 	    </ul>
 	</div>
-	<div id="myTabContent" class="min-h-20screen lg:min-h-screen block  w-full lg:w-7/10 mb-10">
+	<div id="myTabContent" class="min-h-20screen  block  w-full lg:w-7/10 mb-10">
 		{{ range .Params.tab }}
-		    <div class="mx-20 lg:mx-5 xl:mr-10 xl:ml-5 lg:ml-15 float-left hidden p-5 lg:p-16 rounded-2lg dark:bg-gray-800 main-bg-ecosystem" id="{{.icon}}" role="tabpanel" aria-labelledby="profile-tab">
+		    <div class="mx-2 lg:mx-5 xl:mr-10 xxl:ml-5 xl:ml-16 float-left hidden p-5 lg:p-16 rounded-2lg dark:bg-gray-800 main-bg-ecosystem" id="{{.icon}}" role="tabpanel" aria-labelledby="profile-tab">
 		    	<h2 class="uppercase text-4xl mt-10">Ping infinite</h2>
 		    	<h3 class="mt-5 text-6xl">{{.name}}</h3>
 		        <p class="mt-10 self-center w-full text-base xl:text-2xl sm:px:0 text-left  leading-loose mb-5 ">{{.desc | safeHTML}}</p>
