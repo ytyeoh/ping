@@ -36,6 +36,7 @@ var Default = {
   onOpen: function onOpen() {},
   onClose: function onClose() {},
   onToggle: function onToggle() {}
+
 };
 
 var Accordion = /*#__PURE__*/function () {
@@ -2774,6 +2775,7 @@ var Dropdown = /*#__PURE__*/function () {
       this._visible = true; // callback function
 
       this._options.onShow(this);
+
     }
   }, {
     key: "hide",
@@ -3096,6 +3098,7 @@ var Tabs = /*#__PURE__*/function () {
 
         this._items.map(function (tab) {
           tab.triggerEl.addEventListener('click', function () {
+            document.getElementById('myTabContent').scrollIntoView();
             _this.show(tab.id);
           });
         });
@@ -3117,6 +3120,7 @@ var Tabs = /*#__PURE__*/function () {
       return this._items.filter(function (t) {
         return t.id === id;
       })[0];
+
     }
   }, {
     key: "show",
@@ -3144,6 +3148,7 @@ var Tabs = /*#__PURE__*/function () {
           t.triggerEl.children[0].classList.remove('text-whte');
           t.targetEl.classList.add('hidden');
           t.triggerEl.setAttribute('aria-selected', false);
+
         }
       }); // show active tab
 
@@ -3160,6 +3165,7 @@ var Tabs = /*#__PURE__*/function () {
 
 
       this._options.onShow(this, tab);
+
     }
   }]);
 

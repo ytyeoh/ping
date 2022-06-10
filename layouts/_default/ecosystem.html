@@ -18,10 +18,10 @@
 	{{ partial "section/left_img1.html" (dict  "desc" .Params.product_1_desc "img" .Params.product_1_image "image" .Params.product_1_image2)  }}
 	<div class="flex flex-col sm:flex sm:flex-row">
     <div class="mb-4 block sm:w-1/4 ">
-	    <ul class="inline-grid grid-cols-2 float-left sm:block flex-wrap text-sm font-medium text-center text-black border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+	    <ul class="inline-grid grid-cols float-left sm:block flex-wrap text-sm font-medium text-center text-black border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
 	    	{{ range .Params.tab }}
 	        <li class="mx-3 lg:mr-2 tabcolor" role="presentation">
-	            <button class="rounded-xl items-center text-left text-sm p-2 mx-1 my-3 lg:text-xl lg:ml-5 lg:my-3 w-full inline-flex lg:p-4  dark:hover:text-gray-300 group font-bold " id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb text-2xl lg:text-4xl mr-5 lg:mr-2"></span>PING INFINITE {{ .name}}</button>
+	            <button class="rounded-xl items-center text-left text-sm p-2 mx-1 mb-6 lg:text-xl lg:ml-5 lg:my-3 w-full inline-flex lg:p-4  dark:hover:text-gray-300 group font-bold " id="profile-tab" data-tabs-target="#{{.icon}}" type="button" role="tab" aria-controls="{{ .icon }}" aria-selected="false"><span class="icon-{{.icon}} fa bbbb text-2xl lg:text-4xl mr-5 lg:mr-2"></span>PING INFINITE {{ .name}}</button>
 	        </li>
 	        {{ end }}
 	    </ul>
