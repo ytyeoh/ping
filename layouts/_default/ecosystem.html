@@ -28,7 +28,7 @@
 	</div>
 	<div id="myTabContent" class="min-h-20screen lg:min-h-screen block  w-full lg:w-7/10 mb-10">
 		{{ range .Params.tab }}
-		    <div class="mx-2 lg:mx-5 xl:mr-10 xl:ml-5 float-left hidden p-5 lg:p-16 rounded-2lg dark:bg-gray-800 main-bg-ecosystem" id="{{.icon}}" role="tabpanel" aria-labelledby="profile-tab">
+		    <div class="mx-20 lg:mx-5 xl:mr-10 xl:ml-5 lg:ml-15 float-left hidden p-5 lg:p-16 rounded-2lg dark:bg-gray-800 main-bg-ecosystem" id="{{.icon}}" role="tabpanel" aria-labelledby="profile-tab">
 		    	<h2 class="uppercase text-4xl mt-10">Ping infinite</h2>
 		    	<h3 class="mt-5 text-6xl">{{.name}}</h3>
 		        <p class="mt-10 self-center w-full text-base xl:text-2xl sm:px:0 text-left  leading-loose mb-5 ">{{.desc | safeHTML}}</p>
