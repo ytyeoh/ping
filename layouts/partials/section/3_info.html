@@ -2,8 +2,8 @@
 
 <div class="mx-auto p-6">
   <div class="flex flex-col ">
-  	<h3 class="text-center text-purple-850 xl:text-3xl text-2xl font-black uppercase text-left xl:pl-5">{{ .main_title }}</h3>
-	<h2 class="text-center  text-blue-850 xl:text-6xl text-2xl font-bold lg:mt-5 lg:mb-8 uppercase text-left xl:pl-5">{{ .subtitle }}</h2>
+  	<h3 class="text-center tracking-widest text-purple-850 xl:text-3xl text-2xl font-black uppercase text-left xl:pl-5">{{ .main_title }}</h3>
+	<h2 class="tracking-widest text-center  text-blue-850 xl:text-6xl text-2xl font-bold lg:mt-5 lg:mb-8 capitalize text-left xl:pl-5">{{ .subtitle }}</h2>
 	</div>
 	<div class="flex flex-col lg:flex-row items-stretch -mx-4 text-center">
   	{{$title := .main_title}}
@@ -13,16 +13,16 @@
       <div class="block main-bg-ud overflow-hidden border-2 h-full rounded-2lg">
         <div class="p-4">
 	    	<span class="justify-center items-center grid my-5"><img src="{{ .icon }}" alt="" class="w-50"></span>
-          <h2 class="mt-10 mb-2 font-black text-2xl ">
+          <h2 class="mt-10 mb-2 font-bold text-2xl ">
             {{ $title }} {{ .title }}
           </h2>
 
-          <p class="text-xl text-center leading-loose mx-10 mb-8">{{ .desc }}</p>
+          <p class="tracking-widest text-xl text-center leading-loose mx-10 mb-8">{{ .desc }}</p>
         </div>
       </div>
     </div>
     {{ end }}
   </div>
-  <div class="flex justify-center items-center my-10"><a href="{{.url}}" class="main-bg hover:bg-blue-700 text-white xl:text-2xl py-2 px-6 rounded font-medium xl:ml-5 uppercase">{{ .btn }}</a></div> 
+  <div class="flex justify-center items-center my-10"><a href="{{.url}}" class="main-bg hover:bg-blue-700 text-white xl:text-2xl py-2 px-6 rounded font-bold xl:ml-5 uppercase">{{ .btn }}</a></div> 
   
 </div>

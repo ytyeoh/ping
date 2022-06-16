@@ -7,16 +7,12 @@ slide:
     image: '/img/main/1.png'
     btn: 'read more'
     url: 'technology'
-  - title: 'PING INFINITE'
-    sub_title: 'A Quality Lifestyle Can Be Easily Achieved Here!'
+  - title: 'PING INFINITE PROGRAM'
+    sub_title: 'A Platform For You To Generate A Recurrence Income!'
     image: '/img/main/2.png'
-    btn: ''
+    btn: 'read more'
     url: 'technology'
-  - title: 'PING INFINITE'
-    sub_title: 'A Quality Lifestyle Can Be Easily Achieved Here!'
-    image: '/img/main/3.png'
-    btn: 'learn more'
-    url: 'technology'
+
 
 image_1: '/img/main/1.png'
 image_2: '/img/main/2.png'
@@ -29,7 +25,7 @@ home_1a_btn:
   - text: 'learn more'
     url: 'reseller'
 
-home_2_title: 'be a reseller'
+home_2_title: 'Prestige club'
 home_2_desc: 'PING INFINITE Prestige Club is a sharing platform, does not belongs to ones but belongs to everyone. In PING INFINITE Prestige Club, we gather all elite talents from all walks of life, no matter which country they came from, regardless of their status, we treat all members equally.'
 home_2_image: 'main/a3.jpg'
 home_2_link: 'reseller'
@@ -47,7 +43,7 @@ home_2a_key:
 
 
 home_3_title: 'ecosystem'
-home_3_btn: 'find put more'
+home_3_btn: 'find out more'
 home_3_url: '/fsd'
 home_3:
   - icon: 'img/main/b1.svg'
